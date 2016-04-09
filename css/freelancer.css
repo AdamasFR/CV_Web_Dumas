@@ -75,7 +75,7 @@ hr.star-light{
 
 hr.star-light:after {
     color: #fff;
-    background-color: #747274  ;
+    background-color: #6C6F7D  ;
 }
 
 
@@ -85,7 +85,7 @@ hr.star-primary-etudes{
 
 hr.star-primary-etudes:after {
     color: #fff;
-    background-color: #747274  ;
+    background-color: #6C6F7D  ;
 }
 
 hr.star-primary-portfolio {
@@ -106,7 +106,7 @@ hr.star-primary-portfolio:after {
 header {
     text-align: center;
     color: #fff;
-    background-image:url(/img/cover/header-bg.jpg);
+    background-image:url(/img/cover/MX34W7PD96.jpg);
     background-attachment: scroll;
     background-position: center;
     background-size:cover;
@@ -126,6 +126,7 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: 2px 2px #005ad4;
     font-size: 2em;
     font-weight: 700;
 }
@@ -185,7 +186,7 @@ header .intro-text .skills {
 }
 /* Navbar Color*/
 .navbar-default {
-    background-color: #4E5166;
+    background-color: #2E3138;
     border-color: transparent;
 }
 
@@ -214,13 +215,13 @@ section h2 {
 /* About Portfolio*/
 section.contact {
     color: #fff;
-    background: #B5AA9D;
+    background: #6C6F7D;
 }
 
 /* About Section*/
 section.etudes {
     color: #fff;
-    background: #747274;
+    background: #6C6F7D;
 }
 
 section.etudes a,
@@ -234,7 +235,7 @@ section.etudes a.active {
 
 section.about {
     color: #fff;
-    background: #747274;
+    background: #6C6F7D;
 }
 
 section.about a,
