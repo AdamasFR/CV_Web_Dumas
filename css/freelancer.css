@@ -106,7 +106,7 @@ hr.star-primary-portfolio:after {
 header {
     text-align: center;
     color: #fff;
-    background-image:url(/img/cover/MX34W7PD96.jpg);
+    background-image:url(/img/cover/MX34W7PD96.png);
     background-attachment: scroll;
     background-position: center;
     background-size:cover;
@@ -126,14 +126,15 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-shadow: 2px 2px #005ad4;
+    text-shadow: 5px 5px #2E3138;
     font-size: 2em;
     font-weight: 700;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 500;
+    text-shadow: 2px 5px #2E3138;
 }
 
 @media(min-width:768px) {
@@ -398,7 +399,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #7C90A0;
+    background-color: #6C6F7D;
 }
 
 footer .footer-col {
@@ -407,7 +408,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #2E3138;
 }
 
 .btn-social {
