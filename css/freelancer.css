@@ -527,3 +527,11 @@ h6 {
     margin-left: -1px;
     margin-top: -2px;
 }
+
+.txtcenter{
+    /*Since <center> is not W3C complia
+    nt*/
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
