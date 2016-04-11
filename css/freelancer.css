@@ -95,7 +95,6 @@ hr.star-primary-portfolio {
 /*Star Color*/
 
 hr.star-primary-portfolio:after {
-    color: ;
     background-color: #fff;
 }
 
@@ -231,7 +230,6 @@ section.etudes a:focus,
 section.etudes a:active,
 section.etudes a.active {
     outline: 0;
-    color: ;
 }
 
 section.about {
@@ -245,7 +243,6 @@ section.about a:focus,
 section.about a:active,
 section.about a.active {
     outline: 0;
-    color: ;
 }
 
 @media(max-width:767px) {
@@ -371,7 +368,7 @@ section.about a.active {
     transition: top .3s ease,opacity .3s ease;
 }
 
-.floating-label-form-group::not(:first-child) {
+.floating-label-form-group:not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eee;
 }
