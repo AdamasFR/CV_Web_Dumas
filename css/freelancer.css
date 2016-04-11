@@ -106,7 +106,7 @@ hr.star-primary-portfolio:after {
 header {
     text-align: center;
     color: #fff;
-    background-image:url(/img/cover/MX34W7PD96.png);
+    background-image:url(/img/cover/HeaderNewWebsite_size_opt.jpg);
     background-attachment: scroll;
     background-position: center;
     background-size:cover;
@@ -127,7 +127,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-shadow: 5px 5px #2E3138;
-    font-size: 2em;
+    font-size: 4em;
     font-weight: 700;
 }
 
