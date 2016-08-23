@@ -9,7 +9,7 @@ $(function() {
             // Prevent spam click and default submit behaviour
             $("#btnSubmit").attr("disabled", true);
             event.preventDefault();
-            
+
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
@@ -40,8 +40,11 @@ $(function() {
                         .append("<strong>Votre message a été envoyé ! </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
-
                     //clear all fields
+
+                    // Envoi d'un SMS
+                    $.post("smsapi.free-mobile.fr/sendmsg?user=23315809&pass=alcjyH4EfCZDun&msg="+name+" : "+message);
+
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
