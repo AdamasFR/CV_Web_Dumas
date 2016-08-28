@@ -1,0 +1,21 @@
+body {
+    background: #EECDA3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EECDA3, #EF629F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EECDA3, #EF629F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+    text-shadow: 1px 1px 15px #3c3c3c;
+}
+.hide {
+    display: none;
+}
+.center {
+    text-align: center;
+    padding-top: 100px;
+}
