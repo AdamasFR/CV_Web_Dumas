@@ -52,7 +52,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Désolé " + firstName + ", mon serveur de mail ne semble pas disponible, vous pouvez m'envoyer un mail directement à anthony-dumas@pad-panic.fr !");
+                    $('#success > .alert-danger').append("<strong>Désolé " + firstName + ", mon serveur de mail ne semble pas disponible, vous pouvez m'envoyer un mail directement à anthony.yvon.dumas@gmail.com !");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
