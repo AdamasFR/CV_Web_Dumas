@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+Anthony Dumas - Portfolio
 =======
 
->>>>>>> origin/master
+Un CV basé sur le thème Freelancer pour Bootstrap avec quelques ajouts maison.
