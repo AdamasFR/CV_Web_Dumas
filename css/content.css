@@ -1,3 +1,9 @@
-#center {
+#center
+{
     text-align: center;
+}
+
+p.descriptionPortfolio
+{
+    font-size: 1.3em;
 }
