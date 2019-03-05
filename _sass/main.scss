@@ -26,4 +26,11 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma
 */
 
+$primary: #3c3c3c;
+$primary-invert:#fff;
+
 @import "../node_modules/bulma/bulma";
+
+#menu {
+    text-shadow: 1px 1px 3px #3c3c3c99;
+}
