@@ -31,7 +31,15 @@ $primary-invert:#3c3c3c;
 
 @import "../node_modules/bulma/bulma";
 
-#idCard .hero-body {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+#idCard {
+
+    .hero-body {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    // permet de re-aligner les tags avec les subtitles
+    .tags {
+        margin-top: -1.25rem;
+    }
 }

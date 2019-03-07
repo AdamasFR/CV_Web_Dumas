@@ -6949,3 +6949,6 @@ label.panel-block {
 #idCard .hero-body {
   padding-bottom: 2rem;
   padding-top: 2rem; }
+
+#idCard .tags {
+  margin-top: -1.25rem; }
