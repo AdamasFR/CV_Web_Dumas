@@ -1,1 +1,1 @@
-web: npm start
+web: npx browser-sync start --server --files "*.html" --files "css/*.css"
