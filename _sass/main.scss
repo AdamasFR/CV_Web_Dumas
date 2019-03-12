@@ -26,14 +26,24 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma
 */
 
+/**
+    Thème
+**/
 $orange-yellow:#F2CD60;
 $maize:#F2E863;
-$sunset-orange:#F25757;
-$middle-blue:#61E8E1;
-$alabaster:#EAF2E3;
+$wheat:#f5e0b7;
+$vivid-tangerine:#efa48b;
+$granite-gray:#685369;
 
-$primary:$sunset-orange;
+/**
+    Variables Bulma
+**/
+$primary:$orange-yellow;
 $primary-invert:#fff;
+$info:$vivid-tangerine;
+$info-invert:#fff;
+$footer-color:$granite-gray;
+$link:$orange-yellow;
 
 @import "../node_modules/bulma/bulma";
 
@@ -53,4 +63,13 @@ $primary-invert:#fff;
 // retire les barres de scroll des panneaux experience/education
 #experiences .media-content {
     overflow: hidden;
+}
+
+footer {
+    background-color: $footer-color !important;
+    color: #fff;
+}
+
+footer strong {
+    color: #fff;
 }
