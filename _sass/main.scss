@@ -45,6 +45,10 @@ $info-invert:#fff;
 $footer-color:$deep-koamaru;
 $link:$neon-carrot;
 
+html {
+    background-color: $primary;
+}
+
 @import "../node_modules/bulma/bulma";
 
 #idCard {
