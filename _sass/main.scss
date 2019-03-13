@@ -82,6 +82,7 @@ footer strong {
     margin-top: -6px;
 }
 
+// Pour devices iOS qui ont un notch (si c'est pas un device avec un notch, it's no-tch your problem)
 div.hero-body {
     margin-left: env(safe-area-inset-left);
     margin-right: env(safe-area-inset-right);
