@@ -29,21 +29,21 @@ $primary-invert: $pink-invert;
 /**
     Thème
 **/
-$orange-yellow:#F2CD60;
-$maize:#F2E863;
-$wheat:#f5e0b7;
-$vivid-tangerine:#efa48b;
-$granite-gray:#685369;
+$deep-koamaru:#2b4162;
+$myrtle-green:#326273;
+$cadet-blue:#5c9ead;
+$neon-carrot:#fa9f42;
+$white:#ffffff;
 
 /**
     Variables Bulma
 **/
-$primary:$orange-yellow;
+$primary:$cadet-blue;
 $primary-invert:#fff;
-$info:$vivid-tangerine;
+$info:$myrtle-green;
 $info-invert:#fff;
-$footer-color:$granite-gray;
-$link:$orange-yellow;
+$footer-color:$deep-koamaru;
+$link:$neon-carrot;
 
 @import "../node_modules/bulma/bulma";
 
@@ -72,4 +72,8 @@ footer {
 
 footer strong {
     color: #fff;
+}
+
+.media-content {
+    margin-top: -6px;
 }
