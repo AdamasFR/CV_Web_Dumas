@@ -6984,7 +6984,7 @@ div.hero-body {
   padding-left: 5%; }
 
 @media screen and (max-width: 768px) {
-  .button.is-fullwidth-mobile {
+  .button.is-fullw-mobile {
     display: flex;
     width: 100%; } }
 
