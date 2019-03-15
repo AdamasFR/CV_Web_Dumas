@@ -8,12 +8,13 @@
     <title>Anthony Dumas - Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
 </head>
 
 <body>
-    <section id="menu" class="hero is-primary">
+    <section id="menu" class="hero is-primary dontPrint">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title">
@@ -29,7 +30,7 @@
         <div class="hero-body">
             <div class="container">
                 <div class="columns">
-                    <div class="column is-offset-1"></div>
+                    <div class="column is-offset-1 dontPrint"></div>
                     <div id="idCard" class="column is-3 is-hidden-mobile">
                         <div class="card">
                             <div class="card-image">
@@ -64,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column is-7" id="experiences">
+                    <div class="column is-narrow" id="experiences">
                         <span class="title">Experience</span>
                         <div class="card-content" id="harvest">
                             <div class="media">
@@ -137,11 +138,15 @@
                             </div>
                         </div>
                     </div>
+                    <div class="column is-offset-1 dontPrint"></div>
+                </div>
+            </div>
+    </section>
                     <div class="column is-offset-1"></div>
                 </div>
             </div>
     </section>
-    <section class="hero is-info">
+    <section class="hero is-info dontPrint">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title">
@@ -154,7 +159,7 @@
             </div>
     </section>
     <!-- Footer -->
-    <footer class="footer has-text-centered">
+    <footer class="footer has-text-centered dontPrint">
         <div class="container">
             <div class="columns">
                 <div class="column is-8-desktop is-offset-2-desktop">
