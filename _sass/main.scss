@@ -93,6 +93,18 @@ div.hero-body {
     padding-left: 5%;
 }
 
+.btn-centered {
+    padding-left: 25%;
+}
+
+.btn-centered .button+.button {
+    margin-left: 80px;
+}
+
+.btn-centered .button {
+    min-width: 150px;
+}
+
 @media screen and (max-width: 768px) {
     .button.is-fullw-mobile {
         display: flex;
