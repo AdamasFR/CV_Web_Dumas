@@ -44,6 +44,7 @@ $info:$myrtle-green;
 $info-invert:#fff;
 $footer-color:$deep-koamaru;
 $link:$neon-carrot;
+$link-hover:"";
 
 html {
     background-color: $primary;
@@ -91,6 +92,14 @@ div.hero-body {
 .btn-centered div.column.hasContent {
     padding-left: 5%;
 }
+
+@media screen and (max-width: 768px) {
+    .button.is-fullwidth-mobile {
+        display: flex;
+        width: 100%;
+    }
+}
+
 
 @font-face {
     font-family: "icomoon";
