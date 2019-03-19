@@ -6980,7 +6980,7 @@ div.hero-body {
   margin-left: env(safe-area-inset-left);
   margin-right: env(safe-area-inset-right); }
 
-.button {
+section#contact .button {
   min-width: 155px; }
 
 @media screen and (max-width: 768px) {
