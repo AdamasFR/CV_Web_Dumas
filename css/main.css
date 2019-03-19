@@ -6980,14 +6980,8 @@ div.hero-body {
   margin-left: env(safe-area-inset-left);
   margin-right: env(safe-area-inset-right); }
 
-.btn-centered div.column.hasContent {
-  padding-left: 5%; }
-
-.btn-centered .button + .button {
-  margin-left: 80px; }
-
-.btn-centered .button {
-  min-width: 150px; }
+.button {
+  min-width: 155px; }
 
 @media screen and (max-width: 768px) {
   .button.is-fullw-mobile {
