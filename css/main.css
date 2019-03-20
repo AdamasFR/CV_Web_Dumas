@@ -6956,38 +6956,6 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-#idCard .hero-body {
-  padding-bottom: 2rem;
-  padding-top: 2rem; }
-
-#idCard .tags {
-  margin-top: -1.25rem; }
-
-#experiences .media-content {
-  overflow: hidden; }
-
-footer {
-  background-color: #2b4162 !important;
-  color: #fff; }
-
-footer strong {
-  color: #fff; }
-
-.media-content {
-  margin-top: -6px; }
-
-div.hero-body {
-  margin-left: env(safe-area-inset-left);
-  margin-right: env(safe-area-inset-right); }
-
-section#contact .button {
-  min-width: 155px; }
-
-@media screen and (max-width: 768px) {
-  .button.is-fullw-mobile {
-    display: flex;
-    width: 100%; } }
-
 @font-face {
   font-family: "icomoon";
   src: url("../font/fonts/icomoon.eot");
@@ -7020,3 +6988,38 @@ section#contact .button {
 
 .icon-teleg:before {
   content: "\e900"; }
+
+.icon-file-pdf-o:before {
+  content: "\e905"; }
+
+#idCard .hero-body {
+  padding-bottom: 2rem;
+  padding-top: 2rem; }
+
+#idCard .tags {
+  margin-top: -1.25rem; }
+
+#experiences .media-content {
+  overflow: hidden; }
+
+footer {
+  background-color: #2b4162 !important;
+  color: #fff; }
+
+footer strong {
+  color: #fff; }
+
+.media-content {
+  margin-top: -6px; }
+
+div.hero-body {
+  margin-left: env(safe-area-inset-left);
+  margin-right: env(safe-area-inset-right); }
+
+section#contact .button {
+  min-width: 155px; }
+
+@media screen and (max-width: 768px) {
+  .button.is-fullw-mobile {
+    display: flex;
+    width: 100%; } }
