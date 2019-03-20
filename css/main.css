@@ -6992,6 +6992,9 @@ label.panel-block {
 .icon-file-pdf-o:before {
   content: "\e905"; }
 
+.icon-print:before {
+  content: "\e906"; }
+
 #idCard .hero-body {
   padding-bottom: 2rem;
   padding-top: 2rem; }
