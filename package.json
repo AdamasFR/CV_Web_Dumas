@@ -36,6 +36,7 @@
     "start": "npm-run-all --parallel css-watch js-watch auto-loading"
   },
   "dependencies": {
-    "browser-sync": "^2.26.3"
+    "browser-sync": "^2.26.3",
+    "jquery": "^3.3.1"
   }
 }
