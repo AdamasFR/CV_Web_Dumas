@@ -56,11 +56,10 @@
                                                     <i class="fab icon-twit"></i>
                                                 </span>
                                             </a>
-                                            <a class="button" href="javascript:window.print()" target="_blank">
-                                                <span class="icon">
-                                                    <i class="fab icon-print"></i>
-                                                </span>
-                                            </a>
+                                        </p>
+                                        <p>
+                                            <h1 class="displayOnlyOnPrint">Anthony Dumas</h1>
+                                            <p class="dontPrint"><noscript>anthony[arobase]dumas.cc</noscript></p>
                                         </p>
                                     </div>
                                 </div>
@@ -82,7 +81,7 @@
                                 </div>
                                 <div class="media-content">
                                     <p class="title is-4">Développeur Web</p>
-                                    <p class="subtitle is-6">Harvest - Clermont-Ferrand</p>
+                                    <p class="subtitle is-6">Harvest - Clermont-Ferrand - (2016 - Actuel)</p>
                                     <div class="tags">
                                         <span class="tag">Java</span>
                                         <span class="tag">JQuery</span>
@@ -105,7 +104,7 @@
                                 </div>
                                 <div class="media-content">
                                     <p class="title is-4">Développeur Internet des Objets</p>
-                                    <p class="subtitle is-6">Michelin - Clermont-Ferrand</p>
+                                    <p class="subtitle is-6">Michelin - Clermont-Ferrand - (Ete 2015)</p>
                                     <div class="tags">
                                         <span class="tag">MongoDB</span>
                                         <span class="tag">Node.JS</span>
@@ -129,7 +128,7 @@
                                 </div>
                                 <div class="media-content">
                                     <p class="title is-4">DUT Informatique - Imagerie Numérique</p>
-                                    <p class="subtitle is-6">IUT du Puy en Velay</p>
+                                    <p class="subtitle is-6">IUT du Puy en Velay - (2013 - 2015)</p>
                                     <div class="tags">
                                         <span class="tag">Unity</span>
                                         <span class="tag">3DSMax</span>
@@ -161,7 +160,7 @@
                 </h2>
                 <div class="columns">
                     <div class="column is-3 is-offset-2-desktop">
-                        <a class="button is-large is-fullw-mobile" href="mailto:anthony@dumas.cc">
+                        <a id="btn-mail" disabled class="button is-large is-fullw-mobile">
                             <span class="icon">
                                 <i class="fab icon-envelope-open"></i>
                             </span>
@@ -210,7 +209,7 @@
                     </p>
                     <p>
                         <small>
-                            Auteur : <strong>Anthony Dumas</strong> - anthony@dumas.cc
+                            Auteur : <strong>Anthony Dumas</strong>
                         </small>
                     </p>
                     <p>
@@ -230,7 +229,9 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="lib/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>

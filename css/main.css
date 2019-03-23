@@ -7026,3 +7026,6 @@ section#contact .button {
   .button.is-fullw-mobile {
     display: flex;
     width: 100%; } }
+
+.displayOnlyOnPrint {
+  display: none; }
