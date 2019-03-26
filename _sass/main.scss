@@ -102,5 +102,14 @@ section#contact .button {
 }
 
 .displayOnlyOnPrint {
-    display: none;
+    display:none;
+}
+
+#buttonsUnderPhoto a {
+	padding-left: 16px;
+	padding-bottom:0;
+}
+
+#photosAndButtons .media-content p + p {
+	margin-top:-16px;
 }
