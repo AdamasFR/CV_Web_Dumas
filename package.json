@@ -1,0 +1,44 @@
+{
+  "name": "anthony-dumas-portfolio",
+  "version": "2.0.0-SNAPSHOT",
+  "description": "anthony-dumas-portfolio",
+  "keywords": [
+    "sass",
+    "bulma",
+    "css",
+    "start"
+  ],
+  "author": "Anthony Dumas <anthony@dumas.css>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamasFR/CV_Web_Dumas.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "bulma": "^0.7.2",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.1"
+  },
+  "scripts": {
+    "css-deploy": "npm run css-build && npm run css-postcss",
+    "css-build": "node-sass _sass/main.scss css/main.css",
+    "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "deploy": "npm run css-deploy && npm run js-build",
+    "js-build": "babel _javascript --out-dir lib",
+    "js-watch": "npm run js-build -- --watch",
+    "auto-loading": "npx browser-sync start --server --files '*.html' --files 'css/*.css'",
+    "start": "npm-run-all --parallel css-watch js-watch auto-loading"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "global": "^4.3.2",
+    "jquery": "^3.3.1",
+    "npx": "^10.2.0"
+  }
+}
