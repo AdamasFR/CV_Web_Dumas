@@ -6,7 +6,5 @@ La monture 2019 de mon site ce veux être simple. Je veux un site pratique a uti
 
 ## Developpement
 
-- npm start
-> Watcher de fichiers Bulma.css
--  npx browser-sync start --server --files "*.html" --files "css/*.css"
-> Watcher de fichiers BrowserSync
+- yarn start ou npm start
+> Watcher de fichier & serveur Browsersync
