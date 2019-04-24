@@ -6,7 +6,7 @@ $btnMail.click(function (evt) {
   evt.preventDefault();
   Swal.fire({
     title: 'Email',
-    html: "Vous pouvez m'envoyer un mail à <strong>anthony@dumas.cc</strong> !",
+    html: "Vous pouvez m'envoyer un mail à <strong><a href='mailto:anthony@dumas.cc'>anthony@dumas.cc</a></strong> !",
     imageUrl: './images/mail.jpg',
     imageWidth: 400,
     imageHeight: 200,
