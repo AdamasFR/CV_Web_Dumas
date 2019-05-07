@@ -15,12 +15,12 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^9.4.7",
+    "autoprefixer": "^9.5.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015-ie": "^6.7.0",
     "bulma": "^0.7.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^6.1.1"
   },
@@ -36,10 +36,10 @@
     "start": "npm-run-all --parallel css-watch js-watch auto-loading"
   },
   "dependencies": {
-    "bonsoir.js": "^1.0.0",
-    "browser-sync": "^2.26.3",
+    "bonsoir.js": "^1.0.1",
+    "browser-sync": "^2.26.5",
     "global": "^4.3.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "npx": "^10.2.0"
   }
 }
