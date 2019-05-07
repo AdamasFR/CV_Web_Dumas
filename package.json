@@ -16,13 +16,19 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
+    "ava": "^1.4.1",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015-ie": "^6.7.0",
     "bulma": "^0.7.2",
+    "co-exec": "^1.0",
+    "codecov": "^1.0.1",
+    "ghooks": "^1.2.4",
     "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
-    "postcss-cli": "^6.1.1"
+    "nyc": "^14.1.0",
+    "postcss-cli": "^6.1.1",
+    "standard": "^8.4.0"
   },
   "scripts": {
     "css-deploy": "npm run css-build && npm run css-postcss",
@@ -33,13 +39,20 @@
     "js-build": "babel _javascript --out-dir lib",
     "js-watch": "npm run js-build -- --watch",
     "auto-loading": "npx browser-sync start --server --files '*.html' --files 'css/*.css'",
-    "start": "npm-run-all --parallel css-watch js-watch auto-loading"
+    "start": "npm-run-all --parallel css-watch js-watch auto-loading",
+    "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
+    "standard": "standard index.js",
+    "test": "nyc ./node_modules/.bin/ava -v"
   },
   "dependencies": {
-    "bonsoir.js": "^1.0.2",
     "browser-sync": "^2.26.5",
     "global": "^4.3.2",
     "jquery": "^3.4.1",
     "npx": "^10.2.0"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run standard"
+    }
   }
 }
