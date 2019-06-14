@@ -45,6 +45,7 @@
     "test": "nyc ./node_modules/.bin/ava -v"
   },
   "dependencies": {
+    "bonsoir.js": "^1.0.2",
     "browser-sync": "^2.26.5",
     "global": "^4.3.2",
     "jquery": "^3.4.1",
