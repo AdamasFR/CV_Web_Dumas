@@ -50,6 +50,10 @@ html {
     background-color: $primary;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 @import "../node_modules/bulma/bulma";
 @import "icon";
 
