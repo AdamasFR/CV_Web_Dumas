@@ -1,0 +1,53 @@
+/**
+    Dark Theme
+**/
+@media (prefers-color-scheme: dark) {
+    .dark-theme-only{
+        display:inline;
+    }
+    .hero{  
+        background-color:darken(#5c9ead,35%)!important;
+        color:#ffffff;
+    }
+
+    #photosAndButtons .card-content{
+        background-color:darken(#5c9ead,40%)!important;
+    }
+
+    p.title,
+    span.title{
+        color:#ffffff;
+    }
+
+    p.subtitle{
+        color:#ffffff;
+    }
+
+    .is-primary
+    {
+        background-color:darken(#5c9ead,40%)!important;
+    }
+    .tile.is-vertical{
+        background-color:unset;
+    }
+
+    .is-info{
+        background-color: darken(#5c9ead,41%)!important;
+    }
+
+    section.hero.is-primary.is-bold{
+        background-image: none;
+        background-color:darken(#5c9ead,30%)!important;
+    }
+
+    body footer{
+        background-color: darken(#5c9ead,42%)!important;
+    }
+
+    .button{
+        background-color: darken(#5c9ead,41%);
+        border-color:darken(#5c9ead,30%);
+        border-width: 4px;
+        color:white;
+    }
+}

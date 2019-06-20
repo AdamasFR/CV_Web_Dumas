@@ -54,8 +54,13 @@ body{
     overflow-x: hidden;
 }
 
+.dark-theme-only{
+    display:none;
+}
+
 @import "../node_modules/bulma/bulma";
 @import "icon";
+@import "dark-theme";
 
 #idCard {
 
