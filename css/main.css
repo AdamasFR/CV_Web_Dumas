@@ -7114,3 +7114,12 @@ section#contact .button {
 
 footer small {
   color: #ffffff; }
+
+#photoProfil.dark {
+  display: none; }
+
+@media (prefers-color-scheme: dark) {
+  #photoProfil.dark {
+    display: block; }
+  #photoProfil.light {
+    display: none; } }
