@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cd /var/www/anthony-dumas
+git fetch
 
 UPSTREAM=${1:-'@{u}'}
 LOCAL=$(git rev-parse @)
@@ -10,7 +11,9 @@ BASE=$(git merge-base @ "$UPSTREAM")
 if [ $LOCAL = $REMOTE ]; then
     echo "Up-to-date"
 elif [ $LOCAL = $BASE ]; then
-    echo "Need to pull"
+    git stash
+    git pull
+    npm install
 elif [ $REMOTE = $BASE ]; then
     echo "Need to push"
 else
