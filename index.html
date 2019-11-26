@@ -310,6 +310,8 @@
             </div>
         </div>
     </footer>
+<script src="https://browser.sentry-cdn.com/5.9.1/bundle.min.js" integrity="sha384-/x1aHz0nKRd6zVUazsV6CbQvjJvr6zQL2CHbQZf3yoLkezyEtZUpqUNnOLW9Nt3v" crossorigin="anonymous">
+</script>
     <!-- Matomo -->
     <script type="text/javascript">
         var trackingIsOkay = true;
@@ -349,6 +351,10 @@
     <script type="text/javascript" src="node_modules/bonsoir.js/bonsoir.js"></script>
     <script type="text/javascript" src="lib/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+	<script>
+		Sentry.init({ dsn: 'https://42b2e6a9a3e8441983f6d6383fa17c1c@sentry.io/1835040' });
+	</script>
+
 </body>
 
 </html>
