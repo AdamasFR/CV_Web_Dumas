@@ -50,12 +50,12 @@ html {
     background-color: $primary;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
-.dark-theme-only{
-    display:none;
+.dark-theme-only {
+    display: none;
 }
 
 @import "../node_modules/bulma/bulma";
@@ -110,30 +110,30 @@ section#contact .button {
 }
 
 .displayOnlyOnPrint {
-    display:none;
+    display: none;
 }
 
 #buttonsUnderPhoto a {
-	padding-left: 16px;
-	padding-bottom:0;
+    padding-left: 16px;
+    padding-bottom: 0;
 }
 
-#photosAndButtons .media-content p + p {
-	margin-top:-16px;
+#photosAndButtons .media-content p+p {
+    margin-top: -16px;
 }
 
-.tile p.title{
-font-size: 25px;
+.tile p.title {
+    font-size: 25px;
 }
 
 // 
-footer small{
-    color:$white;
+footer small {
+    color: $white;
 }
 
 // Photo de Profil
-#photoProfil{
-    background-color:lightgray;
+#photoProfil {
+    background-color: lightgray;
 }
 
 @import "dark-theme";
