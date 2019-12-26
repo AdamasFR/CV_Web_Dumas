@@ -132,16 +132,7 @@ footer small{
     color:$white;
 }
 
-#photoProfil.dark{
-    display:none;
-}
-
-@media (prefers-color-scheme: dark){
-    #photoProfil.dark{
-        display:block;
-    }
-
-    #photoProfil.light{
-        display:none;
-    }
+// Photo de Profil
+#photoProfil{
+    background-color:lightgray;
 }

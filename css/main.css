@@ -7065,7 +7065,9 @@ label.panel-block {
     border-width: 4px;
     color: white; }
   p {
-    color: white; } }
+    color: white; }
+  #photoProfil {
+    background-color: #25444b; } }
 
 #idCard .hero-body {
   padding-bottom: 2rem;
@@ -7115,11 +7117,5 @@ section#contact .button {
 footer small {
   color: #ffffff; }
 
-#photoProfil.dark {
-  display: none; }
-
-@media (prefers-color-scheme: dark) {
-  #photoProfil.dark {
-    display: block; }
-  #photoProfil.light {
-    display: none; } }
+#photoProfil {
+  background-color: lightgray; }
