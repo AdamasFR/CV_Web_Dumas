@@ -7032,43 +7032,6 @@ label.panel-block {
 .icon-print:before {
   content: "\e906"; }
 
-/**
-    Dark Theme
-**/
-@media (prefers-color-scheme: dark) {
-  .dark-theme-only {
-    display: inline; }
-  .hero {
-    background-color: #1d343a !important;
-    color: #ffffff; }
-  #photosAndButtons .card-content {
-    background-color: #142529 !important; }
-  p.title,
-  span.title {
-    color: #ffffff; }
-  p.subtitle {
-    color: #ffffff; }
-  .is-primary {
-    background-color: #142529 !important; }
-  .tile.is-vertical {
-    background-color: unset; }
-  .is-info {
-    background-color: #132225 !important; }
-  section.hero.is-primary.is-bold {
-    background-image: none;
-    background-color: #25444b !important; }
-  body footer {
-    background-color: #111f22 !important; }
-  .button {
-    background-color: #132225;
-    border-color: #25444b;
-    border-width: 4px;
-    color: white; }
-  p {
-    color: white; }
-  #photoProfil {
-    background-color: #25444b; } }
-
 #idCard .hero-body {
   padding-bottom: 2rem;
   padding-top: 2rem; }
@@ -7119,3 +7082,40 @@ footer small {
 
 #photoProfil {
   background-color: lightgray; }
+
+/**
+    Dark Theme
+**/
+@media (prefers-color-scheme: dark) {
+  .dark-theme-only {
+    display: inline; }
+  .hero {
+    background-color: #1d343a !important;
+    color: #ffffff; }
+  #photosAndButtons .card-content {
+    background-color: #142529 !important; }
+  p.title,
+  span.title {
+    color: #ffffff; }
+  p.subtitle {
+    color: #ffffff; }
+  .is-primary {
+    background-color: #142529 !important; }
+  .tile.is-vertical {
+    background-color: unset; }
+  .is-info {
+    background-color: #132225 !important; }
+  section.hero.is-primary.is-bold {
+    background-image: none;
+    background-color: #25444b !important; }
+  body footer {
+    background-color: #111f22 !important; }
+  .button {
+    background-color: #132225;
+    border-color: #25444b;
+    border-width: 4px;
+    color: white; }
+  p {
+    color: white; }
+  #photoProfil {
+    background-color: #25444b; } }

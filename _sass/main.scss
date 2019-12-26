@@ -60,7 +60,6 @@ body{
 
 @import "../node_modules/bulma/bulma";
 @import "icon";
-@import "dark-theme";
 
 #idCard {
 
@@ -136,3 +135,5 @@ footer small{
 #photoProfil{
     background-color:lightgray;
 }
+
+@import "dark-theme";
