@@ -4,6 +4,7 @@ $btnMail.removeAttr("disabled");
 
 $btnMail.click(function (evt) {
   evt.preventDefault();
+  var bonsoir = new Bonsoir(bonsoirFR);
   var salutation = bonsoir.salutation();
   Swal.fire({
     title: 'Email',
