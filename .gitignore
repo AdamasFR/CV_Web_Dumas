@@ -15,3 +15,7 @@ node_modules
 .nyc_output/processinfo/3fd5a954-1289-426c-bc9b-6b7ea38b7c90.json
 .nyc_output/processinfo/index.json
 .nyc_output/3fd5a954-1289-426c-bc9b-6b7ea38b7c90.json
+
+# Organisation ADM
+.well-known/
+contact
