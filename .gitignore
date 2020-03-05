@@ -19,3 +19,7 @@ node_modules
 # Organisation ADM
 .well-known/
 contact
+
+# Securité
+pgp.txt
+security.txt
