@@ -7083,6 +7083,10 @@ footer small {
 #photoProfil {
   background-color: lightgray; }
 
+#mailWhenNoJavascript {
+  text-align: left;
+  font-size: 20px; }
+
 /**
     Dark Theme
 **/
