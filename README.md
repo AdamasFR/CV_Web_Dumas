@@ -3,6 +3,9 @@
 
 Je met a disposition le code de mon portfolio pour review et également garder une trace de l'évolution de la qualité de mon code.
 
+## Déploiement
+Déployé en intégration continue sur https://www.anthony-dumas.fr
+
 ## Développement
 
 - yarn start ou npm start
