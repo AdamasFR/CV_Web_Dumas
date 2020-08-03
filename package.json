@@ -54,7 +54,7 @@
     "bonsoir.js": "^1.0.4",
     "browser-sync": "^2.26.7",
     "global": "^4.4.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "npx": "^10.2.0"
   },
   "config": {
