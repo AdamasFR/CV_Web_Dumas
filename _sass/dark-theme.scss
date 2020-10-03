@@ -57,7 +57,11 @@
     }
 
     #photoProfil {
-        background-color: darken(#5c9ead, 30%);
+        background-color: darken(#5c9ead, 35%);
+    }
+
+    #photosAndButtons .card{
+        box-shadow: unset;
     }
 
 }

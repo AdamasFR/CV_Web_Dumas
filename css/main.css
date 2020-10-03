@@ -7102,4 +7102,6 @@ footer small {
   p {
     color: white; }
   #photoProfil {
-    background-color: #25444b; } }
+    background-color: #1d343a; }
+  #photosAndButtons .card {
+    box-shadow: unset; } }
