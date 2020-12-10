@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("../font/fonts/icomoon.eot");
+    src: url("../font/fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../font/fonts/icomoon.woff") format("woff"), url("../font/fonts/icomoon.ttf") format("truetype"), url("../font/fonts/icomoon.svg#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .icon .fab {
     font-family: "icomoon";
     content: attr(data-icon);
@@ -8,6 +16,7 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     font-style: normal;
+    text-align: center;
 }
 
 .icon-github-alt:before {
