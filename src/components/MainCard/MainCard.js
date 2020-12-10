@@ -1,5 +1,6 @@
 import React, {Component} from '../../../node_modules/react';
 import ExperienceCard from '../ExperienceCard/index';
+import ButtonIcon from '../ButtonIcon/index';
 
 import './MainCard.scss'
 import photoProfil from '../../images/profile_opt.png';
@@ -32,25 +33,17 @@ export default class MainCard extends Component {
                               <div class="media">
                                   <div class="media-content">
                                       <p id="buttonsUnderPhoto" class="buttons are-large ">
-                                          <a class="button" rel="noopener" href="https://github.com/AdamasFR"
-                                               aria-label="Profil Github">
-                                              <span class="icon is-large">
-                                                  <i class="fab icon-github-alt"></i>
-                                              </span>
-                                          </a>
-                                          <a class="button" rel="noopener"
-                                              href="https://www.linkedin.com/in/anthonyyvondumas/" >
-                                              <span class="icon" aria-label="Profil LinkedIn">
-                                                  <i class="fab icon-linke-square"></i>
-                                              </span>
-                                          </a>
-                                          <a class="button" rel="noopener"
-                                              href="https://www.twitter.com/anthony__dumas"
-                                              aria-label="Profil Twitter" >
-                                              <span class="icon">
-                                                  <i class="fab icon-twit"></i>
-                                              </span>
-                                          </a>
+                                          <ButtonIcon 
+                                          icon="fab icon-github-alt"
+                                          lien="https://github.com/AdamasFR"/>
+
+                                          <ButtonIcon
+                                          icon="fab icon-linke-square"
+                                          lien="https://www.linkedin.com/in/anthonyyvondumas/"/>
+
+                                          <ButtonIcon
+                                          icon="fab icon-twit"
+                                          lien="https://www.twitter.com/anthony__dumas"/>
                                       </p>
                                       <p id="boutonCV" class="buttons are-large">
                                           <a class="button is-fullwidth" rel="noopener"
@@ -60,11 +53,6 @@ export default class MainCard extends Component {
                                               </span>
                                               <span>Mon CV</span>
                                           </a>
-                                      </p>
-                                      <p>
-                                          <p class="displayOnlyOnPrint">Anthony Dumas</p>
-                                          <p class="displayOnlyOnPrint">anthony[arobase]dumas.cc</p>
-                                          <p id="mailWhenNoJavascript" class="dontPrint"><noscript>anthony[arobase]dumas.cc</noscript></p>
                                       </p>
                                   </div>
                               </div>

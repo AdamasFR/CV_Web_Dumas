@@ -1,8 +1,6 @@
 import React, {Component} from '../../../node_modules/react';
 import './ExperienceCard.scss'
 
-let title = "Default";
-
 // import { connect } from "react-redux";
 // import { bindActionCreators } from "redux";
 // import * as MenuComponentActions from "../../store/MenuComponent/actions";
