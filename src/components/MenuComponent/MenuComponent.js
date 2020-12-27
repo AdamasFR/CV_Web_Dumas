@@ -5,7 +5,7 @@ import './MenuComponent.scss'
 // import { bindActionCreators } from "redux";
 // import * as MenuComponentActions from "../../store/MenuComponent/actions";
 let title = "Anthony Dumas";
-let jobTitle = "Développeur Full Stack";
+let jobTitle = "Développeur Full Stack @ Harvest";
 export default class MenuComponent extends Component {
     // constructor(props) {
     //     super(props);
