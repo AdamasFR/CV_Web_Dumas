@@ -26,7 +26,7 @@ export default class MainCard extends Component {
                       <div class="card">
                           <div class="card-image">
                               <figure id="photoProfil" class="image">
-                                  <img src={photoProfil} alt="Une Photo de moi"/>
+                                  <img src={photoProfil} alt="Anthony Dumas"/>
                               </figure>
                           </div>
                           <div class="card-content">
