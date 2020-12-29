@@ -5,6 +5,7 @@ import MenuComponent from './components/MenuComponent/index';
 import MainCard from './components/MainCard/MainCard';
 import ProjectsCard from './components/ProjectsCard';
 import ContactCard from './components/ContactCard';
+import FooterCard from './components/FooterCard';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MainCard/>
       <ProjectsCard/>
       <ContactCard/>
+      <FooterCard/>
     </div>
   );
 }
