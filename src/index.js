@@ -23,7 +23,7 @@ const language = function() {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   let lang = urlParams.get("lang");
-  if(messages[lang] == undefined){
+  if(messages[lang] === undefined){
     lang = navigator.language.split(/[-_]/)[0];
   }
   return lang;
