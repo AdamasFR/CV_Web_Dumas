@@ -54,17 +54,17 @@ export default class MenuComponent extends Component {
                 </h2>
             </div>
             <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-light" onClick={this.honhonhon}>
-            🇫🇷
-          </a>
-          <a class="button is-light" onClick={this.heygovna}>
-            🇮🇪
-          </a>
-        </div>
-      </div>
-    </div>
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-light" onClick={this.honhonhon}>
+                    🇫🇷
+                  </a>
+                  <a class="button is-light" onClick={this.heygovna}>
+                    🇮🇪
+                  </a>
+                </div>
+              </div>
+            </div>
         </div>
     </section>;
     }
