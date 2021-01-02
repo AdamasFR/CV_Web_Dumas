@@ -45,14 +45,14 @@ export default class MenuComponent extends Component {
     render() {
       return <section id="menu" class="hero is-primary dontPrint is-bold">
         <div class="hero-body">
-        <div id="langButtons">
+        <div id="langButtons" class="is-hidden-touch">
               <div>
                 <div class="buttons">
                   <a class="button is-light" onClick={this.honhonhon}>
-                    🇫🇷
+                    En Français 🇫🇷
                   </a>
                   <a class="button is-light" onClick={this.heygovna}>
-                    🇮🇪
+                    In English 🇮🇪
                   </a>
                 </div>
               </div>
