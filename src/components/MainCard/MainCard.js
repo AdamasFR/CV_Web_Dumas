@@ -47,7 +47,7 @@ export default class MainCard extends Component {
                                       </p>
                                       <p id="boutonCV" class="buttons are-large">
                                           <a class="button is-fullwidth" rel="noopener"
-                                              href="./asset/anthony-dumas-cv.pdf" >
+                                              href="https://files.adm.ink/anthony-dumas-cv.pdf" >
                                               <span class="icon">
                                                   <i class="fab icon-file-pdf-o"></i>
                                               </span>
