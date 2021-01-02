@@ -46,7 +46,7 @@ export default class MainCard extends Component {
                                           lien="https://www.twitter.com/anthony__dumas"/>
                                       </p>
                                       <p id="boutonCV" class="buttons are-large">
-                                          <a class="button is-fullwidth" rel="noopener"
+                                          <a class="button is-fullwidth" rel="noopener" target="_blank"
                                               href="https://files.adm.ink/anthony-dumas-cv.pdf" >
                                               <span class="icon">
                                                   <i class="fab icon-file-pdf-o"></i>
