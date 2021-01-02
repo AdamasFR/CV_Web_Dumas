@@ -67,27 +67,12 @@ class MainCard extends Component {
                       <span class="title">{experienceCardMessage.title}</span>
                       {experienceCardMessage.experiences.map(function(experience, index){
                     return <ExperienceCard 
-                    nomEntreprise={experienceCardMessage.experiences[index].entreprise}
-                    lieuEntreprise={experienceCardMessage.experiences[index].location}
-                    descriptionEmploi={experienceCardMessage.experiences[index].description}
-                    title={experienceCardMessage.experiences[index].ocupation}
-                    date={experienceCardMessage.experiences[index].duration}
-                    lienLogo={experienceCardMessage.experiences[index].url}
-                    logo={experienceCardMessage.experiences[index].logo}
-                    tags={experienceCardMessage.experiences[index].tags}/>;
+                    data={experience}/>;
                   })}
                     <span class="title">Education</span>
-                    {experienceCardMessage.education.map(function(experience, index){
+                    {experienceCardMessage.education.map(function(education, index){
                     return <ExperienceCard 
-                    nomEntreprise={experienceCardMessage.education[index].entreprise}
-                    lieuEntreprise={experienceCardMessage.education[index].location}
-                    descriptionEmploi={experienceCardMessage.education[index].description}
-                    title={experienceCardMessage.education[index].ocupation}
-                    date={experienceCardMessage.education[index].duration}
-                    lienLogo={experienceCardMessage.education[index].url}
-                    logo={experienceCardMessage.education[index].logo}
-                    tags={experienceCardMessage.education[index].tags}
-                    commentaire={experienceCardMessage.education[index].commentaire}/>;
+                    data={education}/>;
                   })}
                   </div>
 

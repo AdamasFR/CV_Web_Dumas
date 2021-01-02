@@ -5,7 +5,7 @@
         "title" : "Experience",
         "experiences" : [
             {
-                "ocupation" : "Full Stack Developer",
+                "occupation" : "Full Stack Developer",
                 "logo" : "../../logos/harvest.fr.png",
                 "url" : "https://www.harvest.fr",
                 "duration" : "(since 2016)",
@@ -21,7 +21,7 @@
                 ]
             },
             {
-                "ocupation" : "Internship as IOT Developer",
+                "occupation" : "Internship as IOT Developer",
                 "logo" : "../../logos/michelin.png",
                 "url" : "https://www.michelin.fr",
                 "duration" : "2015",
@@ -38,7 +38,7 @@
         ],
         "education" : [
             {
-                "ocupation" : "Associate's Degree in Computer Science / Digital Imaging *",
+                "occupation" : "Associate's Degree in Computer Science / Digital Imaging *",
                 "logo" : "../../logos/www.iut-clermont.png",
                 "url" : "https://www.iut-clermont.fr/",
                 "duration" : "Class of 2015",

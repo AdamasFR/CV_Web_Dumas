@@ -5,7 +5,7 @@
         "title" : "Experience",
         "experiences" : [
             {
-                "ocupation" : "Développeur Full Stack",
+                "occupation" : "Développeur Full Stack",
                 "logo" : "../../logos/harvest.fr.png",
                 "url" : "https://www.harvest.fr",
                 "duration" : "(depuis 2016)",
@@ -21,7 +21,7 @@
                 ]
             },
             {
-                "ocupation" : "Stagiaire Développeur Internet des Objets",
+                "occupation" : "Stagiaire Développeur Internet des Objets",
                 "logo" : "../../logos/michelin.png",
                 "url" : "https://www.michelin.fr",
                 "duration" : "2015",
@@ -38,7 +38,7 @@
         ],
         "education" : [
             {
-                "ocupation" : "DUT Informatique - Imagerie Numérique",
+                "occupation" : "DUT Informatique - Imagerie Numérique",
                 "logo" : "../../logos/www.iut-clermont.png",
                 "url" : "https://www.iut-clermont.fr/",
                 "duration" : "Promotion 2015",
