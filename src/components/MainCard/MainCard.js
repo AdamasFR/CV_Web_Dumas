@@ -6,14 +6,8 @@ import ButtonIcon from '../ButtonIcon/index';
 
 import './MainCard.scss'
 import photoProfil from '../../images/profile_opt.png';
-// import { connect } from "react-redux";
-// import { bindActionCreators } from "redux";
-// import * as mainCardActions from "../../store/mainCard/actions";
+
 class MainCard extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {};
-    // }
     render() {
         const experienceCardMessage = this.props.intl.messages.experienceCard;
       return <section id="idCard" class="hero is-medium is-primary-inverted is-bold">
@@ -75,8 +69,6 @@ class MainCard extends Component {
                     data={education}/>;
                   })}
                   </div>
-
-                  
               </div>
           </div>
           </div>
@@ -86,7 +78,3 @@ class MainCard extends Component {
 
 
 export default injectIntl(MainCard)
-// export default connect(
-//     ({ mainCard }) => ({ ...mainCard }),
-//     dispatch => bindActionCreators({ ...mainCardActions }, dispatch)
-//   )( mainCard );
