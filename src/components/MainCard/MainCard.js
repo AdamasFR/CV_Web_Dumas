@@ -1,22 +1,21 @@
 import React, {Component} from '../../../node_modules/react';
+import { injectIntl } from 'react-intl'
+
 import ExperienceCard from '../ExperienceCard/index';
 import ButtonIcon from '../ButtonIcon/index';
 
 import './MainCard.scss'
 import photoProfil from '../../images/profile_opt.png';
-import michelinLogo from '../../images/logos/michelin.png';
-import iutClermontLogo from '../../images/logos/www.iut-clermont.png';
-import harvestLogo from '../../images/logos/harvest.fr.png';
-
 // import { connect } from "react-redux";
 // import { bindActionCreators } from "redux";
 // import * as mainCardActions from "../../store/mainCard/actions";
-export default class MainCard extends Component {
+class MainCard extends Component {
     // constructor(props) {
     //     super(props);
     //     this.state = {};
     // }
     render() {
+        const experienceCardMessage = this.props.intl.messages.experienceCard;
       return <section id="idCard" class="hero is-medium is-primary-inverted is-bold">
         <div class="hero-body">
           <div class="container">
@@ -63,46 +62,45 @@ export default class MainCard extends Component {
                           </div>
                       </div>
                   </div>
+                  
                   <div class="column is-7" id="experiences">
-                      <span class="title">Experience</span>
-                      <ExperienceCard 
-                      nomEntreprise="Harvest"
-                      lieuEntreprise="Clermont-Ferrand"
-                      descriptionEmploi="Développement de simulateurs bancaires responsives."
-                      title="Développeur Full Stack"
-                      date="depuis 2016"
-                      lienLogo="https://www.harvest.fr"
-                      logo={harvestLogo}
-                      tags={["Java EE","Angular","OpenAPI","jQuery","Spring"]}/>
-                      
-                      <ExperienceCard 
-                      nomEntreprise="Michelin"
-                      lieuEntreprise="Clermont-Ferrand"
-                      descriptionEmploi="Stage de fin d'étude DUT, etude du marché des objets connectés, création d'un prototype embarqué."
-                      title="Développeur Internet des Objets"
-                      date="2015"
-                      lienLogo="https://www.michelin.fr"
-                      logo={michelinLogo}
-                      tags={["MongoDB","Node.js","Word","Powerpoint"]}/>
-
-                      <span class="title">Education</span>
-
-                      <ExperienceCard 
-                      nomEntreprise="IUT du Puy en Velay"
-                      lieuEntreprise="Le Puy en Velay"
-                      descriptionEmploi="Programmation 3D temps réel, Web, infographie 3D, retouche d'image."
-                      title="DUT Informatique - Imagerie Numérique"
-                      date="Promotion 2015"
-                      lienLogo="https://www.iut-clermont.fr"
-                      logo={iutClermontLogo}
-                      tags={["Unity","3DSMax","Photoshop","C++","Python","Web Design"]}/>
+                      <span class="title">{experienceCardMessage.title}</span>
+                      {experienceCardMessage.experiences.map(function(experience, index){
+                    return <ExperienceCard 
+                    nomEntreprise={experienceCardMessage.experiences[index].entreprise}
+                    lieuEntreprise={experienceCardMessage.experiences[index].location}
+                    descriptionEmploi={experienceCardMessage.experiences[index].description}
+                    title={experienceCardMessage.experiences[index].ocupation}
+                    date={experienceCardMessage.experiences[index].duration}
+                    lienLogo={experienceCardMessage.experiences[index].url}
+                    logo={experienceCardMessage.experiences[index].logo}
+                    tags={experienceCardMessage.experiences[index].tags}/>;
+                  })}
+                    <span class="title">Education</span>
+                    {experienceCardMessage.education.map(function(experience, index){
+                    return <ExperienceCard 
+                    nomEntreprise={experienceCardMessage.education[index].entreprise}
+                    lieuEntreprise={experienceCardMessage.education[index].location}
+                    descriptionEmploi={experienceCardMessage.education[index].description}
+                    title={experienceCardMessage.education[index].ocupation}
+                    date={experienceCardMessage.education[index].duration}
+                    lienLogo={experienceCardMessage.education[index].url}
+                    logo={experienceCardMessage.education[index].logo}
+                    tags={experienceCardMessage.education[index].tags}
+                    commentaire={experienceCardMessage.education[index].commentaire}/>;
+                  })}
                   </div>
+
+                  
               </div>
           </div>
           </div>
   </section>;
     }
   }
+
+
+export default injectIntl(MainCard)
 // export default connect(
 //     ({ mainCard }) => ({ ...mainCard }),
 //     dispatch => bindActionCreators({ ...mainCardActions }, dispatch)

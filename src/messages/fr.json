@@ -1,4 +1,59 @@
 {
     "title":"Anthony Yvon Dumas",
-    "subtitle":"Développeur Full Stack @ Harvest"
+    "subtitle":"Développeur Full Stack @ Harvest",
+    "experienceCard" : {
+        "title" : "Experience",
+        "experiences" : [
+            {
+                "ocupation" : "Développeur Full Stack",
+                "logo" : "../../logos/harvest.fr.png",
+                "url" : "https://www.harvest.fr",
+                "duration" : "(depuis 2016)",
+                "entreprise" : "Harvest",
+                "location" : "Clermont-Ferrand",
+                "description" : "Développement de simulateurs bancaires responsives.",
+                "tags" : [
+                    "Java EE",
+                    "Angular",
+                    "OpenAPI",
+                    "jQuery",
+                    "Spring"
+                ]
+            },
+            {
+                "ocupation" : "Stagiaire Développeur Internet des Objets",
+                "logo" : "../../logos/michelin.png",
+                "url" : "https://www.michelin.fr",
+                "duration" : "2015",
+                "entreprise" : "Michelin",
+                "location" : "Clermont-Ferrand",
+                "description" : "Stage de fin d'étude DUT, etude du marché des objets connectés, création d'un prototype embarqué.",
+                "tags" : [
+                    "MongoDB",
+                    "Node.js",
+                    "Word",
+                    "Powerpoint"
+                ]
+            }
+        ],
+        "education" : [
+            {
+                "ocupation" : "DUT Informatique - Imagerie Numérique",
+                "logo" : "../../logos/www.iut-clermont.png",
+                "url" : "https://www.iut-clermont.fr/",
+                "duration" : "Promotion 2015",
+                "entreprise" : "Université d'Auvergne",
+                "location" : "Le Puy-en-Velay",
+                "description" : "Programmation 3D temps réel, Web, infographie 3D, retouche d'image.",
+                "tags" : [
+                    "Unity",
+                    "3DSMax",
+                    "Photoshop",
+                    "C++",
+                    "Python",
+                    "Web Design"
+                ]
+            }
+        ]
+    }
 }

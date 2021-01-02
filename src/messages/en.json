@@ -1,4 +1,60 @@
 {
     "title":"Anthony Dumas",
-    "subtitle":"Full Stack Developer @ Harvest"
+    "subtitle":"Full Stack Developer @ Harvest",
+    "experienceCard" : {
+        "title" : "Experience",
+        "experiences" : [
+            {
+                "ocupation" : "Full Stack Developer",
+                "logo" : "../../logos/harvest.fr.png",
+                "url" : "https://www.harvest.fr",
+                "duration" : "(since 2016)",
+                "entreprise" : "Harvest",
+                "location" : "Clermont-Ferrand",
+                "description" : "Development of responsive banking simulators and APIs.",
+                "tags" : [
+                    "Java EE",
+                    "Angular",
+                    "OpenAPI",
+                    "jQuery",
+                    "Spring"
+                ]
+            },
+            {
+                "ocupation" : "Internship as IOT Developer",
+                "logo" : "../../logos/michelin.png",
+                "url" : "https://www.michelin.fr",
+                "duration" : "2015",
+                "entreprise" : "Michelin",
+                "location" : "Clermont-Ferrand",
+                "description" : "End of year internship, study of the Internet of Things Market, making of a IOT prototype.",
+                "tags" : [
+                    "MongoDB",
+                    "Node.js",
+                    "Word",
+                    "Powerpoint"
+                ]
+            }
+        ],
+        "education" : [
+            {
+                "ocupation" : "Associate's Degree in Computer Science / Digital Imaging *",
+                "logo" : "../../logos/www.iut-clermont.png",
+                "url" : "https://www.iut-clermont.fr/",
+                "duration" : "Class of 2015",
+                "entreprise" : "University of Auvergne",
+                "location" : "Le Puy-en-Velay",
+                "description" : "Real Time 3D development, Web, 3D computer graphic, image retouch.",
+                "commentaire" : "* Translation of DUT Informatique - Imagerie Numérique",
+                "tags" : [
+                    "Unity",
+                    "3DSMax",
+                    "Photoshop",
+                    "C++",
+                    "Python",
+                    "Web Design"
+                ]
+            }
+        ]
+    }
 }

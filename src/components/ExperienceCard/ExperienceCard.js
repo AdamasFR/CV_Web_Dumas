@@ -11,18 +11,19 @@ export default class ExperienceCard extends Component {
     //     this.state = {};
     // }
     render() {
+        var imgSrc = this.props.logo;
       return <div class="card-content">
       <div class="media">
           <div class="media-left">
               <a href={this.props.lienLogo}>
                   <figure class="image is-48x48">
-                      <img src={this.props.logo} alt="Logo Entreprise"/>
+                      <img src={imgSrc} alt="Logo Entreprise"/>
                   </figure>
               </a>
           </div>
           <div class="media-content">
               <p class="title is-4">{this.props.title}</p>
-              <p class="subtitle is-6">{this.props.nomEntreprise} - {this.props.lieuEntreprise} - ({this.props.date})</p>
+              <p class="subtitle is-6">{this.props.nomEntreprise} - {this.props.lieuEntreprise} - {this.props.date}</p>
               <div class="tags">
                 {this.props.tags.map(function(name, index){
                     return <span key={ index } class="tag">{name}</span>;
@@ -33,6 +34,10 @@ export default class ExperienceCard extends Component {
       <div class="content">
             {this.props.descriptionEmploi}
       </div>
+      {this.props.commentaire ? <div class="comment">
+            {this.props.commentaire}
+      </div> : ''}
+      
   </div>
     }
   }
