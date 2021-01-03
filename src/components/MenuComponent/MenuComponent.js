@@ -48,12 +48,12 @@ export default class MenuComponent extends Component {
         <div id="langButtons" class="is-hidden-touch">
               <div>
                 <div class="buttons">
-                  <a class="button is-light" onClick={this.honhonhon}>
+                  <span class="button is-light" onClick={this.honhonhon}>
                     En Français 🇫🇷
-                  </a>
-                  <a class="button is-light" onClick={this.heygovna}>
+                  </span>
+                  <span class="button is-light" onClick={this.heygovna}>
                     In English 🇮🇪
-                  </a>
+                  </span>
                 </div>
               </div>
             </div>
