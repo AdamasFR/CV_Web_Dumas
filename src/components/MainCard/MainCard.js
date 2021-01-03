@@ -37,7 +37,7 @@ class MainCard extends Component {
 
                                           <ButtonIcon
                                           icon="fab icon-twit"
-                                          lien="https://www.twitter.com/anthony__dumas"/>
+                                          lien="https://www.twitter.com/adamas_fr"/>
                                       </p>
                                       <p id="boutonCV" class="buttons are-large">
                                           <a class="button is-fullwidth" rel="noreferrer noopener" target="_blank"
