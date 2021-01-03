@@ -1,6 +1,7 @@
 {
     "title":"Anthony Dumas",
     "subtitle":"Full Stack Developer @ Harvest",
+    "curriculumVitaeLink" : "Curriculum Vitae",
     "experienceCard" : {
         "title" : "Experience",
         "experiences" : [
