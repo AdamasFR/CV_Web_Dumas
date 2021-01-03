@@ -1,4 +1,5 @@
 import React, {Component} from '../../../node_modules/react';
+import {FormattedMessage} from 'react-intl';
 import { injectIntl } from 'react-intl'
 
 import ExperienceCard from '../ExperienceCard/index';
@@ -44,7 +45,7 @@ class MainCard extends Component {
                                               <span class="icon">
                                                   <i class="fab icon-file-pdf-o"></i>
                                               </span>
-                                              <span>Mon CV</span>
+                                              <span><FormattedMessage id="curriculumVitaeLink"/></span>
                                           </a>
                                       </p>
                                   </div>
