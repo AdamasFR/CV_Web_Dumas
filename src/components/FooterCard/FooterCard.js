@@ -1,4 +1,6 @@
 import React, {Component} from '../../../node_modules/react';
+import { injectIntl } from 'react-intl';
+
 import './FooterCard.scss'
 
 import bulmaLogo from '../../images/made-with-bulma.png';
@@ -6,12 +8,13 @@ import bulmaLogo from '../../images/made-with-bulma.png';
 // import { connect } from "react-redux";
 // import { bindActionCreators } from "redux";
 // import * as FooterCardActions from "../../store/FooterCard/actions";
-export default class FooterCard extends Component {
+class FooterCard extends Component {
     // constructor(props) {
     //     super(props);
     //     this.state = {};
     // }
     render() {
+        const footerMessage = this.props.intl.messages.footer;
       return <footer class="footer has-text-centered dontPrint">
       <div class="container">
           <div class="columns">
@@ -23,7 +26,7 @@ export default class FooterCard extends Component {
                   </p>
                   <p>
                       <small class="sosumi">
-                          Copyright © 2014 - 2020 Anthony Dumas. Tous droits réservés.
+                          {footerMessage.legalNotice}
                       </small>
                   </p>
                   <p id="footer-credits">
@@ -39,7 +42,7 @@ export default class FooterCard extends Component {
                   </p>
                   <p class="dark-theme-only">
                       <small>
-                          (Ceci est le thème sombre !)
+                        {footerMessage.darkThemeNotice}
                       </small>
                   </p>
               </div>
@@ -48,7 +51,5 @@ export default class FooterCard extends Component {
   </footer>;
     }
   }
-// export default connect(
-//     ({ FooterCard }) => ({ ...FooterCard }),
-//     dispatch => bindActionCreators({ ...FooterCardActions }, dispatch)
-//   )( FooterCard );
+
+  export default injectIntl(FooterCard)

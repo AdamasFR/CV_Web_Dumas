@@ -4,16 +4,17 @@ import './ProjectCard.scss'
 export default class ProjectCard extends Component {
 
     render() {
+        const data = this.props.data;
       return <div class="tile is-vertical is-4">
               <div class="tile">
                   <div class="tile is-parent">
                       <article class="tile is-child notification is-info">
-                          <p class="title">{this.props.title}</p>
-                          <a href={this.props.href} rel="noopener">
+                          <p class="title">{data.title}</p>
+                          <a href={data.url} rel="noopener">
                               <figure class="image is-4by3">
-                                  <img src={this.props.image}
-                                      alt={this.props.imgAlt}
-                                      title={this.props.imgTitle} />
+                                  <img src={data.image}
+                                      alt={data.imgAlt}
+                                      title={data.imgTitle} />
                               </figure>
                           </a>
                       </article>

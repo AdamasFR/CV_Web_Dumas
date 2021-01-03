@@ -6,7 +6,7 @@
         "experiences" : [
             {
                 "occupation" : "Développeur Full Stack",
-                "logo" : "../../logos/harvest.fr.png",
+                "logo" : "../../images/logos/harvest.fr.png",
                 "url" : "https://www.harvest.fr",
                 "duration" : "(depuis 2016)",
                 "entreprise" : "Harvest",
@@ -22,7 +22,7 @@
             },
             {
                 "occupation" : "Stagiaire Développeur Internet des Objets",
-                "logo" : "../../logos/michelin.png",
+                "logo" : "../../images/logos/michelin.png",
                 "url" : "https://www.michelin.fr",
                 "duration" : "2015",
                 "entreprise" : "Michelin",
@@ -39,7 +39,7 @@
         "education" : [
             {
                 "occupation" : "DUT Informatique - Imagerie Numérique",
-                "logo" : "../../logos/www.iut-clermont.png",
+                "logo" : "../../images/logos/www.iut-clermont.png",
                 "url" : "https://www.iut-clermont.fr/",
                 "duration" : "Promotion 2015",
                 "entreprise" : "Université d'Auvergne",
@@ -55,5 +55,55 @@
                 ]
             }
         ]
+    },
+    "projectCard" : {
+        "projects" : [
+            {
+                "title" : "Portfolio Developpeur",
+                "url" : "http://dev.dumas.cc/",
+                "image" : "../../images/portfolio/vinyls.jpg",
+                "imgAlt" : "Des mains parcourant des vinyles sur un étalage",
+                "imgTitle" : "Photo by Florencia Viadana on Unsplash"
+            },
+            {
+                "title" : "IOT@Michelin",
+                "url" : "https://prezi.com/m/o8ey8mmpnkvp/",
+                "image" : "../../images/portfolio/computerNonSense.jpg",
+                "imgAlt" : "Une photo d'un micro ordinateur dans ma main",
+                "imgTitle" : "Une photo d'un micro ordinateur dans ma main"
+            },
+            {
+                "title" : "adm.photos",
+                "url" : "http://adm.photos/",
+                "image" : "../../images/portfolio/admPhotos.jpg",
+                "imgAlt" : "Une photo du village de mon enfance",
+                "imgTitle" : "Une photo du village de mon enfance"
+            }
+        ]
+    },
+    "contactCard" : {
+        "title" : "Contact",
+        "subtitle" : "Vous pouvez me contacter de nombreuses façons !",
+        "ways" : [
+            {
+                "title" : "Courriel",
+                "url" : "mailto:anthony@dumas.cc",
+                "icon" : "icon-envelope-open"
+            },
+            {
+                "title" : "LinkedIn",
+                "url" : "https://www.linkedin.com/in/anthonyyvondumas/",
+                "icon" : "icon-linke-square"
+            },
+            {
+                "title" : "Telegram",
+                "url" : "https://t.me/adamas_FR",
+                "icon" : "icon-teleg"
+            }
+        ]
+    },
+    "footer" : {
+        "legalNotice" : "Copyright © 2014 - 2021 Anthony Dumas. Tous droits réservés.",
+        "darkThemeNotice" : "(Ceci est le thème sombre)"
     }
 }

@@ -6,7 +6,7 @@
         "experiences" : [
             {
                 "occupation" : "Full Stack Developer",
-                "logo" : "../../logos/harvest.fr.png",
+                "logo" : "../../images/logos/harvest.fr.png",
                 "url" : "https://www.harvest.fr",
                 "duration" : "(since 2016)",
                 "entreprise" : "Harvest",
@@ -22,7 +22,7 @@
             },
             {
                 "occupation" : "Internship as IOT Developer",
-                "logo" : "../../logos/michelin.png",
+                "logo" : "../../images/logos/michelin.png",
                 "url" : "https://www.michelin.fr",
                 "duration" : "2015",
                 "entreprise" : "Michelin",
@@ -39,7 +39,7 @@
         "education" : [
             {
                 "occupation" : "Associate's Degree in Computer Science / Digital Imaging *",
-                "logo" : "../../logos/www.iut-clermont.png",
+                "logo" : "../../images/logos/www.iut-clermont.png",
                 "url" : "https://www.iut-clermont.fr/",
                 "duration" : "Class of 2015",
                 "entreprise" : "University of Auvergne",
@@ -56,5 +56,55 @@
                 ]
             }
         ]
+    },
+    "projectCard" : {
+        "projects" : [
+            {
+                "title" : "Dev Portfolio",
+                "url" : "http://dev.dumas.cc/",
+                "image" : "../../images/portfolio/vinyls.jpg",
+                "imgAlt" : "Hands running accross vinyls in a shop.",
+                "imgTitle" : "Photo by Florencia Viadana on Unsplash"
+            },
+            {
+                "title" : "IOT@Michelin",
+                "url" : "https://prezi.com/m/o8ey8mmpnkvp/",
+                "image" : "../../images/portfolio/computerNonSense.jpg",
+                "imgAlt" : "An IOT prototype.",
+                "imgTitle" : "An IOT prototype."
+            },
+            {
+                "title" : "adm.photos",
+                "url" : "http://adm.photos/",
+                "image" : "../../images/portfolio/admPhotos.jpg",
+                "imgAlt" : "A picture of a beautiful town.",
+                "imgTitle" : "A picture of a beautiful town."
+            }
+        ]
+    },
+    "contactCard" : {
+        "title" : "Contact",
+        "subtitle" : "You can contact me in many different ways :",
+        "ways" : [
+            {
+                "title" : "Email",
+                "url" : "mailto:anthony@dumas.cc",
+                "icon" : "icon-envelope-open"
+            },
+            {
+                "title" : "LinkedIn",
+                "url" : "https://www.linkedin.com/in/anthonyyvondumas/",
+                "icon" : "icon-linke-square"
+            },
+            {
+                "title" : "Telegram",
+                "url" : "https://t.me/adamas_FR",
+                "icon" : "icon-teleg"
+            }
+        ]
+    },
+    "footer" : {
+        "legalNotice" : "Copyright © 2014 - 2021 Anthony Dumas. All rights reserved.",
+        "darkThemeNotice" : "(This is the dark theme)"
     }
 }

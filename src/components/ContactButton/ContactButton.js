@@ -9,13 +9,14 @@ export default class ContactButton extends Component {
     //     this.state = {};
     // }
     render() {
+      const data = this.props.data;
       return <div class="column is-3">
-              <a target="_blank" rel="noreferrer noopener" href={this.props.link} class="hide button is-large is-fullw-mobile"
-                  title={this.props.title}>
+              <a target="_blank" rel="noreferrer noopener" href={data.url} class="hide button is-large is-fullw-mobile"
+                  title={`Go to ${data.title}`}>
                   <span class="icon">
-                      <i class={"fab " + this.props.icon}></i>
+                      <i class={"fab " + data.icon}></i>
                   </span>
-                  <span>{this.props.name}</span>
+                  <span>{data.title}</span>
               </a>
           </div>;
     }
