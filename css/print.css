@@ -1,9 +1,0 @@
-.dontPrint,
-a.button,
-p.buttons {
-    display: none;
-}
-
-.displayOnlyOnPrint {
-    display: inline-block;
-}
