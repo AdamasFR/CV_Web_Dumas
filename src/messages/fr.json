@@ -12,7 +12,7 @@
                 "duration" : "(depuis 2016)",
                 "entreprise" : "Harvest",
                 "location" : "Clermont-Ferrand",
-                "description" : "Développement de simulateurs bancaires responsives.",
+                "description" : "Développement de simulateurs bancaires responsives et d'APIs.",
                 "tags" : [
                     "Java EE",
                     "Angular",
