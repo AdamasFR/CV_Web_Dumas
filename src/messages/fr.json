@@ -100,6 +100,11 @@
                 "title" : "Telegram",
                 "url" : "https://t.me/adamas_FR",
                 "icon" : "icon-teleg"
+            },
+            {
+                "title" : "Twitter",
+                "url" : "https://twitter.com/adamas_fr",
+                "icon" : "icon-twit"
             }
         ]
     },
