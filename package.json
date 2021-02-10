@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prod": "forever start $(which npx) serve -l 1234 -s"
+    "prod": "forever start $(which npx) serve -l 1234 -s /build"
   },
   "eslintConfig": {
     "extends": [
