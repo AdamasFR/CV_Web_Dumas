@@ -1,7 +1,7 @@
 {
     "title":"Anthony Yvon Dumas",
     "subtitle":"Développeur Full Stack @ Harvest",
-    "curriculumVitaeLink" : "Mon CV",
+    "curriculumVitaeLink" : "CV",
     "experienceCard" : {
         "title" : "Experience",
         "experiences" : [
@@ -18,7 +18,8 @@
                     "Angular",
                     "OpenAPI",
                     "jQuery",
-                    "Spring"
+                    "Spring",
+					"Environnement Scrum"
                 ]
             },
             {
@@ -33,7 +34,8 @@
                     "MongoDB",
                     "Node.js",
                     "Word",
-                    "Powerpoint"
+                    "Powerpoint",
+					"Environnement Scrum"
                 ]
             }
         ],
