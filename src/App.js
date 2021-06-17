@@ -8,6 +8,10 @@ import ContactCard from './components/ContactCard';
 import FooterCard from './components/FooterCard';
 
 function App() {
+	var meta = document.createElement('meta');
+	meta.content = "red";
+	meta.name = "theme-color";
+	document.getElementsByTagName('head')[0].appendChild(meta);
   return (
     <div className="App">
       <MenuComponent/>
