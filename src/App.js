@@ -9,7 +9,7 @@ import FooterCard from './components/FooterCard';
 
 function App() {
   var meta = document.createElement('meta');
-  meta.content = window.getComputedStyle(e.target, null).getPropertyValue('hero-body');
+  meta.content = "#3c3c3c";
   meta.name = "theme-color";
   document.getElementsByTagName('head')[0].appendChild(meta);
   return (
