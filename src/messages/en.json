@@ -90,17 +90,22 @@
             {
                 "title" : "Email",
                 "url" : "mailto:anthony@dumas.cc",
-                "icon" : "icon-envelope-open"
+                "icon" : "mail-unread"
             },
             {
                 "title" : "LinkedIn",
                 "url" : "https://www.linkedin.com/in/anthonyyvondumas/",
-                "icon" : "icon-linke-square"
+                "icon" : "logo-linkedin"
             },
             {
-                "title" : "Telegram",
-                "url" : "https://t.me/adamas_FR",
-                "icon" : "icon-teleg"
+                "title" : "Discord",
+                "url" : "https://dsc.bio/adamas",
+                "icon" : "call"
+            },
+            {
+                "title" : "Twitter",
+                "url" : "https://twitter.com/adamas_fr",
+                "icon" : "logo-twitter"
             }
         ]
     },

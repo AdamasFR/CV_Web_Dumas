@@ -10,7 +10,7 @@ export default class ButtonIcon extends Component {
       return <a class="button" rel="noopener" href={this.props.lien}
             aria-label="Profil {this.props.icon}">
           <span class="icon is-large">
-              <i class={this.props.icon}></i>
+              <ion-icon name={this.props.icon}></ion-icon>
           </span>
       </a>;
     }

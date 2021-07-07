@@ -14,7 +14,7 @@ export default class ContactButton extends Component {
               <a target="_blank" rel="noreferrer noopener" href={data.url} class="hide button is-large is-fullw-mobile"
                   title={`Go to ${data.title}`}>
                   <span class="icon">
-                      <i class={"fab " + data.icon}></i>
+                      <ion-icon name={data.icon}></ion-icon>
                   </span>
                   <span>{data.title}</span>
               </a>

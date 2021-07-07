@@ -28,15 +28,15 @@ class MainCard extends Component {
                                   <div class="media-content">
                                       <p id="buttonsUnderPhoto" class="buttons are-large ">
                                           <ButtonIcon 
-                                          icon="fab icon-github-alt"
+                                          icon="logo-github"
                                           lien="https://github.com/AdamasFR"/>
 
                                           <ButtonIcon
-                                          icon="fab icon-linke-square"
+                                          icon="logo-linkedin"
                                           lien="https://www.linkedin.com/in/anthonyyvondumas/"/>
 
                                           <ButtonIcon
-                                          icon="fab icon-twit"
+                                          icon="logo-twitter"
                                           lien="https://www.twitter.com/adamas_fr"/>
                                       </p>
                                       <p id="boutonCV" class="buttons are-large">
