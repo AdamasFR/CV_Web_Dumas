@@ -10,6 +10,8 @@ import photoProfil from '../../images/profile_opt.png';
 
 class MainCard extends Component {
     render() {
+        var metaThemeColor = document.querySelector("meta[name=theme-color]");
+        metaThemeColor.setAttribute("content", window.matchMedia('(prefers-color-scheme: dark)').matches ?"#25444b" : "#5c9ead");
         const experienceCardMessage = this.props.intl.messages.experienceCard;
       return <section id="idCard" class="hero is-medium is-primary-inverted is-bold">
         <div class="hero-body">
