@@ -16,7 +16,7 @@ class MainCard extends Component {
           <div class="container">
               <div class="columns">
                   <div class="column is-2 is-hidden-touch is-hidden-desktop-only dontPrint"></div>
-                  <div id="photosAndButtons" class="column is-3-widescreen is-3-tablet">
+                  <div id="photosAndButtons" class="column is-3-widescreen is-4-tablet">
                       <div class="card">
                           <div class="card-image">
                               <figure id="photoProfil" class="image">
