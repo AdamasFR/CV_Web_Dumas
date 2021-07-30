@@ -1,12 +1,12 @@
 {
     "title":"Anthony Yvon Dumas",
-    "subtitle":"Développeur Full Stack @ Harvest",
+    "subtitle":"Software Developer @ Harvest",
     "curriculumVitaeLink" : "CV",
     "experienceCard" : {
         "title" : "Experience",
         "experiences" : [
             {
-                "occupation" : "Développeur Full Stack",
+                "occupation" : "Software Developer",
                 "logo" : "../../images/logos/harvest.fr.png",
                 "url" : "https://www.harvest.fr",
                 "duration" : "(depuis 2016)",
