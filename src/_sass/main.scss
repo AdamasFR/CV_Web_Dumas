@@ -110,6 +110,11 @@ footer small {
     background-color: lightgray;
 }
 
+// fix d'un affichage désagréable sur la carte Bulma
+#photosAndButtons .card {
+    border-radius:unset;
+}
+
 #mailWhenNoJavascript{
     text-align: left;
     font-size: 20px;
