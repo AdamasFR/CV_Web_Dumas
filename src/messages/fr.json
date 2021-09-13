@@ -76,8 +76,8 @@
                 "imgTitle" : "Une photo d'un micro ordinateur dans ma main"
             },
             {
-                "title" : "adm.photos",
-                "url" : "http://adm.photos/",
+                "title" : "ADM Photographie",
+                "url" : "https://photos.adm.ink/",
                 "image" : "../../images/portfolio/admPhotos.jpg",
                 "imgAlt" : "Une photo du village de mon enfance",
                 "imgTitle" : "Une photo du village de mon enfance"
