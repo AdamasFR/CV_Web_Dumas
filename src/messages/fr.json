@@ -59,6 +59,19 @@
                     "Python",
                     "Web Design"
                 ]
+            },
+            {
+                "occupation" : "L2 Informatique",
+                "logo" : "../../images/logos/www.uca.fr.png",
+                "url" : "https://www.uca.fr",
+                "duration" : "2016",
+                "entreprise" : "Université Clermont-Auvergne",
+                "location" : "Clermont-Ferrand",
+                "description" : "",
+                "tags" : [
+                    "Python",
+                    "Linux"
+                ]
             }
         ]
     },
