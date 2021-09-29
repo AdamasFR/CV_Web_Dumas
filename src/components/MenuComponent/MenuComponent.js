@@ -45,25 +45,29 @@ export default class MenuComponent extends Component {
     render() {
       return <section id="menu" class="hero is-primary dontPrint is-bold">
         <div class="hero-body">
-        <div id="langButtons" class="is-hidden-touch">
-              <div>
-                <div class="buttons">
-                  <span class="button is-light" onClick={this.honhonhon}>
-                    En Français 🇫🇷
-                  </span>
-                  <span class="button is-light" onClick={this.heygovna}>
-                    In English 🇮🇪
-                  </span>
+            <div class="container">
+              <div class="columns">
+                <div class="column">
+                  <h1 class="title">
+                      <FormattedMessage id="title"/>
+                  </h1>
+                  <h2 class="subtitle">
+                      <FormattedMessage id="subtitle"/>
+                  </h2>
+                </div>
+                <div class="column is-hidden-touch">
+                  <div id="langButtons">
+                    <div class="buttons">
+                      <span class="button is-light" onClick={this.honhonhon}>
+                        En Français 🇫🇷
+                      </span>
+                      <span class="button is-light" onClick={this.heygovna}>
+                        In English 🇮🇪
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="container">
-                <h1 class="title">
-                    <FormattedMessage id="title"/>
-                </h1>
-                <h2 class="subtitle">
-                    <FormattedMessage id="subtitle"/>
-                </h2>
             </div>
             
         </div>
