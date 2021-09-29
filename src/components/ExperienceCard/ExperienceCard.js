@@ -16,7 +16,7 @@ export default class ExperienceCard extends Component {
       return <div class="card-content">
       <div class="media">
           <div class="media-left">
-              <a href={data.url}>
+              <a href={data.url} target="_blank">
                   <figure class="image is-48x48">
                       <img src={imgSrc} alt="Logo Entreprise"/>
                   </figure>
