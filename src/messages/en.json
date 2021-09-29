@@ -3,7 +3,10 @@
     "subtitle":"Full Stack Developer @ Harvest",
     "curriculumVitaeLink" : "Curriculum Vitae",
     "experienceCard" : {
-        "title" : "Experience",
+        "title" : {
+            "experience" : "Experience",
+            "education" : "Education"
+        },
         "experiences" : [
             {
                 "occupation" : "Full Stack Developer",
@@ -60,13 +63,6 @@
     },
     "projectCard" : {
         "projects" : [
-            {
-                "title" : "Dev Portfolio",
-                "url" : "http://dev.dumas.cc/",
-                "image" : "../../images/portfolio/vinyls.jpg",
-                "imgAlt" : "Hands running accross vinyls in a shop.",
-                "imgTitle" : "Photo by Florencia Viadana on Unsplash"
-            },
             {
                 "title" : "IOT@Michelin",
                 "url" : "https://prezi.com/m/o8ey8mmpnkvp/",

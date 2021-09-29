@@ -61,12 +61,12 @@ class MainCard extends Component {
                   </div>
                   
                   <div class="column is-7" id="experiences">
-                      <span class="title">{experienceCardMessage.title}</span>
+                      <span class="title">{experienceCardMessage.title.experience}</span>
                       {experienceCardMessage.experiences.map(function(experience, index){
                     return <ExperienceCard 
                     data={experience}/>;
                   })}
-                    <span class="title">Education</span>
+                    <span class="title">{experienceCardMessage.title.education}</span>
                     {experienceCardMessage.education.map(function(education, index){
                     return <ExperienceCard 
                     data={education}/>;

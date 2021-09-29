@@ -3,7 +3,10 @@
     "subtitle":"Software Developer @ Harvest",
     "curriculumVitaeLink" : "CV",
     "experienceCard" : {
-        "title" : "Experience",
+        "title" : {
+            "experience" : "Expériences professionnelles",
+            "education" : "Études et diplômes"
+        },
         "experiences" : [
             {
                 "occupation" : "Software Developer",
@@ -61,13 +64,6 @@
     },
     "projectCard" : {
         "projects" : [
-            {
-                "title" : "Portfolio Developpeur",
-                "url" : "http://dev.dumas.cc/",
-                "image" : "../../images/portfolio/vinyls.jpg",
-                "imgAlt" : "Des mains parcourant des vinyles sur un étalage",
-                "imgTitle" : "Photo by Florencia Viadana on Unsplash"
-            },
             {
                 "title" : "IOT@Michelin",
                 "url" : "https://prezi.com/m/o8ey8mmpnkvp/",
