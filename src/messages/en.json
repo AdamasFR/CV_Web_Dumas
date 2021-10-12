@@ -1,6 +1,6 @@
 {
     "title":"Anthony Yvon Dumas",
-    "subtitle":"Full Stack Developer @ Harvest",
+    "subtitle":"Software Developer @ Harvest",
     "curriculumVitaeLink" : "CV (in .pdf)",
     "experienceCard" : {
         "title" : {
@@ -9,19 +9,20 @@
         },
         "experiences" : [
             {
-                "occupation" : "Full Stack Developer",
+                "occupation" : "Software Developer",
                 "logo" : "../../images/logos/harvest.fr.png",
                 "url" : "https://www.harvest.fr",
                 "duration" : "(since 2016)",
                 "entreprise" : "Harvest",
                 "location" : "Clermont-Ferrand",
-                "description" : "Development of responsive banking simulators and APIs.",
+                "description" : "Development of responsive websites and APIs for wealth management and finance professionals.",
                 "tags" : [
                     "Java EE",
                     "Angular",
                     "OpenAPI",
                     "jQuery",
-                    "Spring"
+                    "Spring",
+                    "Scrum Environment"
                 ]
             },
             {
