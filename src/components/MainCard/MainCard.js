@@ -18,7 +18,7 @@ class MainCard extends Component {
           <div class="container">
               <div class="columns">
                   <div class="column is-2 is-hidden-touch is-hidden-desktop-only dontPrint"></div>
-                  <div id="photosAndButtons" class="column is-3-widescreen is-3-tablet">
+                  <div id="photosAndButtons" class="column is-3-widescreen is-4-tablet">
                       <div class="card">
                           <div class="card-image">
                               <figure id="photoProfil" class="image">
@@ -60,7 +60,7 @@ class MainCard extends Component {
                       </div>
                   </div>
                   
-                  <div class="column is-7" id="experiences">
+                  <div class="column is-9-tablet is-7-widescreen" id="experiences">
                       <span class="title">{experienceCardMessage.title.experience}</span>
                       {experienceCardMessage.experiences.map(function(experience, index){
                     return <ExperienceCard 
