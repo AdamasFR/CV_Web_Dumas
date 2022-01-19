@@ -6,7 +6,8 @@ import ExperienceCard from '../ExperienceCard/index';
 import ButtonIcon from '../ButtonIcon/index';
 
 import './MainCard.scss'
-import photoProfil from '../../images/profile_opt.png';
+import headshotMain from '../../images/headshot_main.png';
+import headshotFond from '../../images/headshot_fond.png';
 
 class MainCard extends Component {
     render() {
@@ -22,7 +23,8 @@ class MainCard extends Component {
                       <div class="card">
                           <div class="card-image">
                               <figure id="photoProfil" class="image">
-                                  <img src={photoProfil} alt="Anthony Dumas"/>
+                                  <img class="background" src={headshotFond} alt="Anthony Dumas"/>
+                                  <img class="actor" src={headshotMain} alt="Anthony Dumas"/>
                               </figure>
                           </div>
                           <div class="card-content">
