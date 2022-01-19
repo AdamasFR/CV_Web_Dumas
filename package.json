@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prod": "forever start $(which npx) serve -l 80 -s build"
+    "prod": "forever start $(which npx) serve -l 80 -s build",
+    "jetstart" : "rm -r node_* && npm i && clear && npm run start"
   },
   "eslintConfig": {
     "extends": [
