@@ -7,12 +7,12 @@
     }
 
     .hero {
-        background-color: darken(#5c9ead, 35%) !important;
+        background-color: darken($primary, 35%) !important;
         color: #ffffff;
     }
 
     #photosAndButtons .card-content {
-        background-color: darken(#5c9ead, 40%) !important;
+        background-color: darken($primary, 40%) !important;
     }
 
     p.title,
@@ -25,7 +25,7 @@
     }
 
     .is-primary {
-        background-color: darken(#5c9ead, 40%) !important;
+        background-color: darken($primary, 40%) !important;
     }
 
     .tile.is-vertical {
@@ -33,21 +33,21 @@
     }
 
     .is-info {
-        background-color: darken(#5c9ead, 41%) !important;
+        background-color: darken($primary, 41%) !important;
     }
 
     section.hero.is-primary.is-bold {
         background-image: none;
-        background-color: darken(#5c9ead, 30%) !important;
+        background-color: darken($primary, 30%) !important;
     }
 
     body footer {
-        background-color: darken(#5c9ead, 42%) !important;
+        background-color: darken($primary, 42%) !important;
     }
 
     .button {
-        background-color: darken(#5c9ead, 41%);
-        border-color: darken(#5c9ead, 30%);
+        background-color: darken($primary, 41%);
+        border-color: darken($primary, 30%);
         border-width: 4px;
         color: white;
     }
@@ -57,7 +57,7 @@
     }
 
     #photoProfil {
-        background-color: darken(#5c9ead, 35%);
+        background-color: darken($primary   , 35%);
     }
 
     #photosAndButtons .card {
