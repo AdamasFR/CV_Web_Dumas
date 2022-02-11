@@ -1,7 +1,7 @@
 {
     "title":"Anthony Yvon Dumas",
     "subtitle":"Software Developer @ Harvest",
-    "curriculumVitaeLink" : "CV (en .pdf)",
+    "curriculumVitaeLink" : "CV (.pdf)",
     "experienceCard" : {
         "title" : {
             "experience" : "Expériences professionnelles",
@@ -12,10 +12,10 @@
                 "occupation" : "Software Developer",
                 "logo" : "../../images/logos/harvest.fr.png",
                 "url" : "https://www.harvest.fr",
-                "duration" : "(depuis 2016)",
+                "duration" : "depuis 2016",
                 "entreprise" : "Harvest",
                 "location" : "Clermont-Ferrand",
-                "description" : "Développement de simulateurs bancaires responsives et d'APIs.",
+                "description" : "Développement de simulateurs dédiés au conseil et à la vente de produits bancaires.",
                 "tags" : [
                     "Java EE",
                     "Angular",
@@ -120,7 +120,7 @@
         ]
     },
     "footer" : {
-        "legalNotice" : "Copyright © 2014 - 2021 Anthony Dumas. Tous droits réservés.",
+        "legalNotice" : "Copyright © 2014 - 2022 Anthony Dumas.",
         "darkThemeNotice" : "(Ceci est le thème sombre)"
     }
 }
