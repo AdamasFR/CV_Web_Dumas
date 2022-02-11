@@ -1,6 +1,6 @@
 {
   "name": "anthony-dumas.fr",
-  "version": "2021.0.001",
+  "version": "2022.0.001",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
