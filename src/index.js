@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { IntlProvider } from 'react-intl';
+import flatten from 'flat'
 
 
 import './index.css';
@@ -24,7 +25,10 @@ const language = function() {
   const urlParams = new URLSearchParams(queryString);
   let lang = urlParams.get("lang");
   if(messages[lang] === undefined){
-    lang = navigator.language.split(/[-_]/)[0];
+    return navigator.language.split(/[-_]/)[0];
+  }
+  if(lang === undefined){
+    return i18nConfig.defaultLocale;
   }
   return lang;
 }
@@ -32,9 +36,9 @@ const language = function() {
 ReactDOM.render(
   <React.StrictMode>
       <IntlProvider
-      locale={language}
+      locale={language()}
       defaultLocale={i18nConfig.defaultLocale}
-      messages={i18nConfig.messages[language()]}
+      messages={flatten(i18nConfig.messages[language()])}
     >
     <App />
     </IntlProvider>

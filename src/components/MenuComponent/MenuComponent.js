@@ -1,6 +1,6 @@
 import React, {Component} from '../../../node_modules/react';
 import {FormattedMessage} from 'react-intl';
-import './MenuComponent.scss'
+import './MenuComponent.scss';
 
 const URL_add_parameter = function(url, param, value){
   var hash       = {};
@@ -43,34 +43,27 @@ export default class MenuComponent extends Component {
 
 
     render() {
-      return <section id="menu" class="hero is-primary dontPrint is-bold">
-        <div class="hero-body">
-            <div class="container">
-              <div class="columns">
-                <div class="column">
-                  <h1 class="title">
-                      <FormattedMessage id="title"/>
-                  </h1>
-                  <h2 class="subtitle">
-                      <FormattedMessage id="subtitle"/>
-                  </h2>
-                </div>
-                <div class="column is-hidden-touch">
-                  <div id="langButtons">
-                    <div class="buttons">
-                      <span class="button is-light" onClick={this.honhonhon}>
-                        En Français 🇫🇷
-                      </span>
-                      <span class="button is-light" onClick={this.heygovna}>
-                        In English 🇮🇪
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-        </div>
+      return <section>
+        <h1 className="">
+            <FormattedMessage id="title"/>
+        </h1>
+        <h2 className="text-3xl font-bold underline">
+            <FormattedMessage id="subtitle" values={{
+              role: 'Software',
+              entreprise: 'Harvest'
+            }}/>
+        </h2>
+
+        <h3 className="">
+
+        </h3>
+        
+        <button className="button is-light" onClick={this.honhonhon}>
+          En Français 🇫🇷
+        </button>
+        <button className="button is-light" onClick={this.heygovna}>
+          In English 🇮🇪
+        </button>
     </section>;
     }
   }
