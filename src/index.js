@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { IntlProvider } from 'react-intl';
+import {createRoot} from 'react-dom/client';
 import flatten from 'flat'
 
 
@@ -9,6 +9,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import messages_fr from './messages/fr.json';
 import messages_en from './messages/en.json';
+
+const container = document.getElementById('root');
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
 
 const messages = {
  'fr': messages_fr,
@@ -33,17 +36,15 @@ const language = function() {
   return lang;
 }
 
-ReactDOM.render(
+root.render(
   <React.StrictMode>
       <IntlProvider
       locale={language()}
       defaultLocale={i18nConfig.defaultLocale}
-      messages={flatten(i18nConfig.messages[language()])}
-    >
-    <App />
+      messages={flatten(i18nConfig.messages[language()])}>
+        <App />
     </IntlProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
