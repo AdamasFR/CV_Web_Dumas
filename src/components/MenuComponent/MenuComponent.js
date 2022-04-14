@@ -1,4 +1,4 @@
-import React, {Component} from '../../../node_modules/react';
+import React, {Component} from 'react';
 import {FormattedMessage} from 'react-intl';
 import './MenuComponent.scss';
 
@@ -41,13 +41,15 @@ export default class MenuComponent extends Component {
       window.location.href=URL_add_parameter(window.location.href, "lang", "en");
     }
 
-
     render() {
       return <section>
         <h1 className="">
+          Hello world!
+        </h1>
+        <h1 className="">
             <FormattedMessage id="title"/>
         </h1>
-        <h2 className="text-3xl font-bold underline">
+        <h2 className="">
             <FormattedMessage id="subtitle" values={{
               role: 'Software',
               entreprise: 'Harvest'
@@ -59,10 +61,10 @@ export default class MenuComponent extends Component {
         </h3>
         
         <button className="button is-light" onClick={this.honhonhon}>
-          En Français 🇫🇷
+          <FormattedMessage id="languages.fr"/>
         </button>
         <button className="button is-light" onClick={this.heygovna}>
-          In English 🇮🇪
+          <FormattedMessage id="languages.en"/>
         </button>
     </section>;
     }
