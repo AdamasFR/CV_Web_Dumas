@@ -3,3 +3,7 @@
 @import "icon";
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+:root {
+    --bs-body-font-family:'Inter', system-ui, -apple-system, sans-serif;
+}
