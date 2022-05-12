@@ -10,12 +10,8 @@ export default class MenuComponent extends Component {
   //     super(props);
   //     this.state = {};
   // }
-  honhonhon() {
-    window.location.href = urlAddParameter(window.location.href, "lang", "fr");
-  }
-
-  heygovna() {
-    window.location.href = urlAddParameter(window.location.href, "lang", "en");
+  changeLanguage(lang) {
+    window.location.href = urlAddParameter(window.location.href, "lang", lang);
   }
 
   render() {
@@ -29,11 +25,11 @@ export default class MenuComponent extends Component {
           <div id="langButtons">
             <button
               className="button is-light fr"
-              onClick={this.honhonhon}
+              onClick={() => this.changeLanguage("fr")}
             ></button>
             <button
               className="button is-light ie"
-              onClick={this.heygovna}
+              onClick={() => this.changeLanguage("en")}
             ></button>
           </div>
         </div>
