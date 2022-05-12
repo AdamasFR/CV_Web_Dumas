@@ -28,12 +28,13 @@ export default class MenuComponent extends Component {
               return (
                 <button
                   className="button is-light"
+                  key={language.lang}
                   onClick={() => this.changeLanguage(language.lang)}
                 >
                   {language.icon} {language.name}
                 </button>
               );
-            })}
+            }, this)}
           </div>
         </div>
         <div className="row">

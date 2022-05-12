@@ -106,16 +106,16 @@
     "footer": {
         "legalNotice": "Copyright © 2014 - 2022 Anthony Dumas."
     },
-    "languages": {
-        "fr": {
-            "icon" : "\\01F1EB\\01F1F7",
+    "languages": [
+        {
+            "icon" : "🇫🇷",
             "name" : "In French",
-            "jsonName" : "fr"
+            "lang" : "fr"
         },
-        "en": {
-            "icon" : "\\01F1EE\\01F1EA",
+        {
+            "icon" : "🇮🇪",
             "name" : "In English",
-            "jsonName" : "en"
+            "lang" : "en"
         }
-    }
+    ]
 }
