@@ -16,6 +16,7 @@ export default class MenuComponent extends Component {
 
   render() {
     let experienceActuelle = langFile.experiences[0];
+    let languages = langFile.languages;
     return (
       <header>
         <div className="row">
@@ -23,14 +24,16 @@ export default class MenuComponent extends Component {
             <FormattedMessage id="title" />
           </div>
           <div id="langButtons">
-            <button
-              className="button is-light fr"
-              onClick={() => this.changeLanguage("fr")}
-            ></button>
-            <button
-              className="button is-light ie"
-              onClick={() => this.changeLanguage("en")}
-            ></button>
+            {languages.map(function (language, index) {
+              return (
+                <button
+                  className="button is-light"
+                  onClick={() => this.changeLanguage(language.lang)}
+                >
+                  {language.icon} {language.name}
+                </button>
+              );
+            })}
           </div>
         </div>
         <div className="row">

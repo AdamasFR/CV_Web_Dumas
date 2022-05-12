@@ -107,7 +107,15 @@
         "legalNotice": "Copyright © 2014 - 2022 Anthony Dumas."
     },
     "languages": {
-        "fr": "",
-        "en": ""
+        "fr": {
+            "icon" : "\\01F1EB\\01F1F7",
+            "name" : "In French",
+            "jsonName" : "fr"
+        },
+        "en": {
+            "icon" : "\\01F1EE\\01F1EA",
+            "name" : "In English",
+            "jsonName" : "en"
+        }
     }
 }
