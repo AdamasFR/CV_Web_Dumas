@@ -1,5 +1,5 @@
 header {
-  height: max(7vw, 50px);
+  height: max(6vw, 60px);
   min-height: 50px;
   background-color: red;
 
@@ -13,13 +13,13 @@ header {
 
     .title {
       font-weight: bold;
-      font-size: 30px;
-      font-size: max(3vw, 20px);
+      font-size: 25px;
+      font-size: max(2.5vw, 25px);
     }
 
     .subtitle {
-      font-size: 10px;
-      font-size: max(2vw, 15px);
+      font-size: 15px;
+      font-size: max(1.5vw, 15px);
     }
 
     #langButtons {
