@@ -1,30 +1,37 @@
 /**
  * utils
  */
-export class utils {
-    URL_add_parameter(url, param, value) {
-        var hash = {};
-        var parser = document.createElement("a");
 
-        parser.href = url;
+/**
+ * urlAddParameter
+ * - recharge la page avec un parametre d'url
+ * @param {*} url 
+ * @param {*} param 
+ * @param {*} value 
+ * @returns 
+ */
+export const urlAddParameter = (url, param, value) => {
+    var hash = {};
+    var parser = document.createElement("a");
 
-        var parameters = parser.search.split(/\?|&/);
+    parser.href = url;
 
-        for (var i = 0; i < parameters.length; i++) {
-            if (!parameters[i]) continue;
+    var parameters = parser.search.split(/\?|&/);
 
-            var ary = parameters[i].split("=");
-            hash[ary[0]] = ary[1];
-        }
+    for (var i = 0; i < parameters.length; i++) {
+        if (!parameters[i]) continue;
 
-        hash[param] = value;
+        var ary = parameters[i].split("=");
+        hash[ary[0]] = ary[1];
+    }
 
-        var list = [];
-        Object.keys(hash).forEach(function (key) {
-            list.push(key + "=" + hash[key]);
-        });
+    hash[param] = value;
 
-        parser.search = "?" + list.join("&");
-        return parser.href;
-    };
-}
+    var list = [];
+    Object.keys(hash).forEach(function (key) {
+        list.push(key + "=" + hash[key]);
+    });
+
+    parser.search = "?" + list.join("&");
+    return parser.href;
+};

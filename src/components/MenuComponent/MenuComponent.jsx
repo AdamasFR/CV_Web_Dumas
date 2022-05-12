@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { FormattedMessage } from "react-intl";
+import { urlAddParameter } from "./../../services/utils.service";
+
 import "./MenuComponent.scss";
-import { utils } from "../../services/utils.service";
 
 export default class MenuComponent extends Component {
   // constructor(props) {
@@ -9,19 +10,11 @@ export default class MenuComponent extends Component {
   //     this.state = {};
   // }
   honhonhon() {
-    window.location.href = utils.URL_add_parameter(
-      window.location.href,
-      "lang",
-      "fr"
-    );
+    window.location.href = urlAddParameter(window.location.href, "lang", "fr");
   }
 
   heygovna() {
-    window.location.href = utils.URL_add_parameter(
-      window.location.href,
-      "lang",
-      "en"
-    );
+    window.location.href = urlAddParameter(window.location.href, "lang", "en");
   }
 
   render() {
@@ -57,7 +50,3 @@ export default class MenuComponent extends Component {
     );
   }
 }
-// export default connect(
-//     ({ MenuComponent }) => ({ ...MenuComponent }),
-//     dispatch => bindActionCreators({ ...MenuComponentActions }, dispatch)
-//   )( MenuComponent );
