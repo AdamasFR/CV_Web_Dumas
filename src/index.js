@@ -1,8 +1,10 @@
 import React from 'react';
 import { IntlProvider } from 'react-intl';
-import {createRoot} from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import flatten from 'flat'
-
+import {
+  getMessagesObject,
+} from "./services/utils.service";
 
 import './index.css';
 import App from './App';
@@ -14,35 +16,37 @@ const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 
 const messages = {
- 'fr': messages_fr,
- 'en': messages_en,
+  'fr': messages_fr,
+  'en': messages_en,
 };
 
 const i18nConfig = {
- defaultLocale: 'fr',
- messages,
+  defaultLocale: 'fr',
+  messages,
 };
 
-const language = function() {
+export const language = function () {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   let lang = urlParams.get("lang");
-  if(messages[lang] === undefined){
+  if (messages[lang] === undefined) {
     return navigator.language.split(/[-_]/)[0];
   }
-  if(lang === undefined){
+  if (lang === undefined) {
     return i18nConfig.defaultLocale;
   }
   return lang;
 }
 
+export const langFile = getMessagesObject();
+
 root.render(
   <React.StrictMode>
-      <IntlProvider
+    <IntlProvider
       locale={language()}
       defaultLocale={i18nConfig.defaultLocale}
       messages={flatten(i18nConfig.messages[language()])}>
-        <App />
+      <App />
     </IntlProvider>
   </React.StrictMode>
 );

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FormattedMessage } from "react-intl";
 import { urlAddParameter } from "./../../services/utils.service";
+import { langFile } from "../../index";
 
 import "./MenuComponent.scss";
 
@@ -18,6 +19,7 @@ export default class MenuComponent extends Component {
   }
 
   render() {
+    let experienceActuelle = langFile.experiences[0];
     return (
       <header>
         <div className="row">
@@ -40,8 +42,8 @@ export default class MenuComponent extends Component {
             <FormattedMessage
               id="subtitle"
               values={{
-                role: "Software",
-                entreprise: "Harvest",
+                role: experienceActuelle.occupation,
+                entreprise: experienceActuelle.entreprise,
               }}
             />
           </div>

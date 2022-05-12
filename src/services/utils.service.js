@@ -1,7 +1,7 @@
 /**
  * utils
  */
-
+import { language } from "./../index";
 /**
  * urlAddParameter
  * - recharge la page avec un parametre d'url
@@ -35,3 +35,16 @@ export const urlAddParameter = (url, param, value) => {
     parser.search = "?" + list.join("&");
     return parser.href;
 };
+
+export const getMessagesObject = () => {
+    let langFile = {};
+    switch (language()) {
+        case "en":
+            langFile = require('../messages/en.json');
+            break;
+        default:
+            langFile = require('../messages/fr.json');
+            break;
+    }
+    return langFile;
+}
