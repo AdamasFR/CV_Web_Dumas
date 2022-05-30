@@ -2,38 +2,29 @@ header {
   height: max(4.5vw, 60px);
   min-height: 50px;
 
-  .row {
-    display: flex;
-    align-items: center;
-    padding-left: 5px;
+  .title {
+    font-weight: bold;
+    font-size: 25px;
+    font-size: max(2vw, 25px);
+  }
 
-    flex-basis: 100%;
-    flex-direction: row;
+  .subtitle {
+    font-size: 15px;
+    font-size: max(1vw, 15px);
+  }
 
-    .title {
-      font-weight: bold;
-      font-size: 25px;
-      font-size: max(2vw, 25px);
+  #langButtons {
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+
+    font-weight: 200px;
+
+    .fr::before {
+      content: "\01F1EB\01F1F7";
     }
-
-    .subtitle {
-      font-size: 15px;
-      font-size: max(1vw, 15px);
-    }
-
-    #langButtons {
-      margin-left: auto;
-      margin-right: 10px;
-      margin-top: 10px;
-
-      font-weight: 200px;
-
-      .fr::before {
-        content: "\01F1EB\01F1F7";
-      }
-      .ie::before {
-        content: "\01F1EE\01F1EA";
-      }
+    .ie::before {
+      content: "\01F1EE\01F1EA";
     }
   }
 }
