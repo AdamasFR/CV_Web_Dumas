@@ -1,7 +1,6 @@
 header {
-  height: max(6vw, 60px);
+  height: max(4.5vw, 60px);
   min-height: 50px;
-  background-color: #32213a;
 
   .row {
     display: flex;
@@ -14,12 +13,12 @@ header {
     .title {
       font-weight: bold;
       font-size: 25px;
-      font-size: max(2.5vw, 25px);
+      font-size: max(2vw, 25px);
     }
 
     .subtitle {
       font-size: 15px;
-      font-size: max(1.5vw, 15px);
+      font-size: max(1vw, 15px);
     }
 
     #langButtons {
