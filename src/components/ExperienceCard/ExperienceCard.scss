@@ -1,0 +1,26 @@
+.ExperienceCardWrapper {
+  display: flex;
+
+  .logo-div {
+    width: fit-content;
+
+    img {
+      width: 3vw;
+    }
+  }
+
+  .info-div {
+    display: flex;
+    flex-flow: column;
+    padding-left: 5px;
+
+    .occupation {
+      font-weight: bold;
+    }
+  }
+
+  .separateur {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

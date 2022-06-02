@@ -1,3 +1,5 @@
+import './ExperienceCard.scss';
+
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 
@@ -19,13 +21,23 @@ class ExperienceCard extends PureComponent {
 
     return (
       <div className="ExperienceCardWrapper">
-        <img
-          width="20"
-          src={this.props.experience.logo}
-          alt={"logo " + this.props.experience.entreprise}
-        />
-        <span id="occupation">{this.props.experience.occupation}</span>
-        <span id="occupation">{this.props.experience.entreprise}</span>
+        <div className="logo-div">
+          <img
+            className="logo"
+            src={this.props.experience.logo}
+            alt={"logo " + this.props.experience.entreprise}
+          />
+        </div>
+        <div className="info-div">
+          <span className="occupation">{this.props.experience.occupation}</span>
+          <div className="info-bar">
+            <span className="entreprise">
+              {this.props.experience.entreprise}
+            </span>
+            <span className="separateur">-</span>
+            <span className="duration">{this.props.experience.duration}</span>
+          </div>
+        </div>
       </div>
     );
   }
