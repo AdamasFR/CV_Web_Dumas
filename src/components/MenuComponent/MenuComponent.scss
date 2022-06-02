@@ -25,4 +25,10 @@ header {
       content: "\01F1EE\01F1EA";
     }
   }
+
+  @media screen and (max-width: 480px) {
+    #langButtons {
+      display: none !important;
+    }
+  }
 }
