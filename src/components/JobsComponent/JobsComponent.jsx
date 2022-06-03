@@ -4,9 +4,9 @@ import { langFile } from '../../index';
 import ExperienceCard from '../ExperienceCard/ExperienceCard';
 
 
-//import { Test } from './ExperiencesComponent.styles';
+//import { Test } from './JobsComponent.styles';
 
-class ExperiencesComponent extends PureComponent {
+class JobsComponent extends PureComponent {
   constructor(props) {
     super(props);
 
@@ -23,7 +23,7 @@ class ExperiencesComponent extends PureComponent {
     let experiences = langFile.experiences;
 
     return (
-      <div className="ExperiencesComponentWrapper">
+      <div className="JobsComponentWrapper">
         {experiences.map((element, i) => {
           console.log(element);
           return <ExperienceCard key={i} experience={element} />;
@@ -33,12 +33,12 @@ class ExperiencesComponent extends PureComponent {
   }
 }
 
-ExperiencesComponent.propTypes = {
+JobsComponent.propTypes = {
   // bla: PropTypes.string,
 };
 
-ExperiencesComponent.defaultProps = {
+JobsComponent.defaultProps = {
   // bla: 'test',
 };
 
-export default ExperiencesComponent;
+export default JobsComponent;

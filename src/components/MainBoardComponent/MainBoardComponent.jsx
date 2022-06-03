@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 
-import ExperiencesComponent from '../ExperiencesComponent/ExperiencesComponent';
+import EducationsComponent from '../EducationsComponents/EducationsComponents';
+import JobsComponent from '../JobsComponent/JobsComponent';
 
 
 //import { Test } from './MainBoardComponent.styles';
@@ -20,7 +21,8 @@ class MainBoardComponent extends PureComponent {
     }
     return (
       <div className="MainBoardComponentWrapper row">
-        <ExperiencesComponent />
+        <JobsComponent />
+        <EducationsComponent />
       </div>
     );
   }
