@@ -36,6 +36,8 @@ class ExperienceCard extends PureComponent {
             </span>
             <span className="separateur">-</span>
             <span className="duration">{this.props.experience.duration}</span>
+            <span className="separateur">-</span>
+            <span className="location">{this.props.experience.location}</span>
           </div>
         </div>
       </div>
