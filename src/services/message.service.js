@@ -1,5 +1,5 @@
 /**
- * messageHandler
+ * message.service
  * author : adm
  */
 
