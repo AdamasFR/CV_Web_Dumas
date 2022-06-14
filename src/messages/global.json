@@ -1,0 +1,10 @@
+{
+  "global": {
+    "buttons": {
+      "languages": {
+        "fr": "En Français 🇫🇷",
+        "en": "In English 🇮🇪"
+      }
+    }
+  }
+}

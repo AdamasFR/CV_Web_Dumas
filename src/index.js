@@ -1,42 +1,50 @@
+import './index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { IntlProvider } from 'react-intl';
 
-
-import './index.css';
 import App from './App';
+import messages from './messages';
 import reportWebVitals from './reportWebVitals';
-import messages_fr from './messages/fr.json';
-import messages_en from './messages/en.json';
 
-const messages = {
- 'fr': messages_fr,
- 'en': messages_en,
-};
 
+const GLOBAL_MESSAGE_KEY = "global";
 const i18nConfig = {
- defaultLocale: 'fr',
- messages,
+  defaultLocale: 'fr',
+  messages,
 };
 
-const language = function() {
+const language = function () {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   let lang = urlParams.get("lang");
-  if(messages[lang] === undefined){
+  if (messages[lang] === undefined) {
     lang = navigator.language.split(/[-_]/)[0];
   }
   return lang;
 }
 
+const langJson = function () {
+  const messageLocalized = i18nConfig.messages[language()];
+  const messageGlobal = i18nConfig.messages[GLOBAL_MESSAGE_KEY];
+  const messageMerged = {
+    ...messageLocalized,
+    ...messageGlobal
+  };
+
+  console.log(JSON.stringify(messageMerged))
+  return messageMerged;
+}
+
 ReactDOM.render(
   <React.StrictMode>
-      <IntlProvider
+    <IntlProvider
       locale={language}
       defaultLocale={i18nConfig.defaultLocale}
-      messages={i18nConfig.messages[language()]}
+      messages={langJson()}
     >
-    <App />
+      <App />
     </IntlProvider>
   </React.StrictMode>,
   document.getElementById('root')
