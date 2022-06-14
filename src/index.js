@@ -5,37 +5,9 @@ import ReactDOM from 'react-dom';
 import { IntlProvider } from 'react-intl';
 
 import App from './App';
-import messages from './messages';
 import reportWebVitals from './reportWebVitals';
+import { i18nConfig, langJson, language } from './services/message.service';
 
-
-const GLOBAL_MESSAGE_KEY = "global";
-const i18nConfig = {
-  defaultLocale: 'fr',
-  messages,
-};
-
-const language = function () {
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  let lang = urlParams.get("lang");
-  if (messages[lang] === undefined) {
-    lang = navigator.language.split(/[-_]/)[0];
-  }
-  return lang;
-}
-
-const langJson = function () {
-  const messageLocalized = i18nConfig.messages[language()];
-  const messageGlobal = i18nConfig.messages[GLOBAL_MESSAGE_KEY];
-  const messageMerged = {
-    ...messageLocalized,
-    ...messageGlobal
-  };
-
-  console.log(JSON.stringify(messageMerged))
-  return messageMerged;
-}
 
 ReactDOM.render(
   <React.StrictMode>
