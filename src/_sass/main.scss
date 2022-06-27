@@ -3,125 +3,115 @@
 /**
     Thème
 **/
-$deep-koamaru:#2b4162;
-$myrtle-green:#326273;
-$cadet-blue:#5c9ead;
-$neon-carrot:#fa9f42;
-$white:#ffffff;
+$deep-koamaru: #2b4162;
+$myrtle-green: #326273;
+$cadet-blue: #5c9ead;
+$neon-carrot: #fa9f42;
+$white: #ffffff;
 
 /**
     Variables Bulma
 **/
-$primary:$cadet-blue;
-$primary-invert:#fff;
-$info:$myrtle-green;
-$info-invert:#fff;
-$footer-color:$deep-koamaru;
-$link:$neon-carrot;
-$link-hover:"";
+$primary: $cadet-blue;
+$primary-invert: #fff;
+$info: $myrtle-green;
+$info-invert: #fff;
+$footer-color: $deep-koamaru;
+$link: $neon-carrot;
+$link-hover: "";
 
 html {
-    background-color: $primary;
+  background-color: $primary;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .dark-theme-only {
-    display: none;
+  display: none;
 }
 
 @import "../../node_modules/bulma/bulma";
 @import "icon";
 
 #idCard {
+  .hero-body {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
 
-    .hero-body {
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-    }
+  // permet de re-aligner les tags avec les subtitles
+  .tags {
+    margin-top: -1.25rem;
+  }
 
-    // permet de re-aligner les tags avec les subtitles
-    .tags {
-        margin-top: -1.25rem;
-    }
-
-    .card {
-        background-color: unset;
-    }
+  .card {
+    background-color: unset;
+  }
 }
 
 // retire les barres de scroll des panneaux experience/education
 #experiences .media-content {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 footer {
-    background-color: $footer-color !important;
-    color: #fff;
+  background-color: $footer-color !important;
+  color: #fff;
 }
 
 footer strong {
-    color: #fff;
+  color: #fff;
 }
 
 .media-content {
-    margin-top: -6px;
+  margin-top: -6px;
 }
 
 // Pour devices iOS qui ont un notch (si c'est pas un device avec un notch, it's no-tch your problem)
 div.hero-body {
-    margin-left: env(safe-area-inset-left);
-    margin-right: env(safe-area-inset-right);
+  margin-left: env(safe-area-inset-left);
+  margin-right: env(safe-area-inset-right);
 }
 
 section#contact .button {
-    min-width: 155px;
+  min-width: 155px;
 }
 
 @media screen and (max-width: 768px) {
-    .button.is-fullw-mobile {
-        display: flex;
-        width: 100%;
-    }
+  .button.is-fullw-mobile {
+    display: flex;
+    width: 100%;
+  }
 }
 
 .displayOnlyOnPrint {
-    display: none;
-}
-
-#buttonsUnderPhoto a {
-    padding-left: 16px;
-    padding-bottom: 0;
-}
-
-#photosAndButtons .media-content p+p {
-    margin-top: -16px;
+  display: none;
 }
 
 .tile p.title {
-    font-size: 25px;
+  font-size: 25px;
 }
 
-// 
+//
 footer small {
-    color: $white;
+  color: $white;
 }
 
 // Photo de Profil
 #photoProfil {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 // fix d'un affichage désagréable sur la carte Bulma
 #photosAndButtons .card {
-    border-radius:unset;
+  border-radius: unset;
 }
 
-#mailWhenNoJavascript{
-    text-align: left;
-    font-size: 20px;
+#mailWhenNoJavascript {
+  text-align: left;
+  font-size: 20px;
 }
 
 @import "dark-theme";

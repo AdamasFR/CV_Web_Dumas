@@ -1,4 +1,4 @@
-@import '../../_sass/main.scss';
+@import "../../_sass/main.scss";
 
 #photoProfil {
   overflow: clip;
@@ -7,15 +7,23 @@
   .background {
     position: absolute;
     filter: blur(2px);
-    opacity:0.5;
+    opacity: 0.5;
   }
 }
 
+#boutonCV a {
+  display: flex;
+}
+
 @keyframes actorZoom {
-    from { transform: scale(100%); }
-    to   { transform: scale(110%); }
+  from {
+    transform: scale(100%);
   }
+  to {
+    transform: scale(110%);
+  }
+}
 
 #photoProfil:hover .actor {
-    animation:4s linear 0s infinite alternate actorZoom;
+  animation: 4s linear 0s infinite alternate actorZoom;
 }
