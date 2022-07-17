@@ -1,113 +1,101 @@
 {
-    "title":"Anthony Yvon Dumas",
-    "subtitle":"Software Developer @ Harvest",
-    "curriculumVitaeLink" : "CV (in .pdf)",
-    "experienceCard" : {
-        "title" : {
-            "experience" : "Experience",
-            "education" : "Education"
-        },
-        "experiences" : [
-            {
-                "occupation" : "Software Developer",
-                "logo" : "../../images/logos/harvest.fr.png",
-                "url" : "https://www.harvest.fr",
-                "duration" : "(since 2016)",
-                "entreprise" : "Harvest",
-                "location" : "Clermont-Ferrand",
-                "description" : "Development of responsive websites and APIs for wealth management and finance professionals.",
-                "tags" : [
-                    "Java EE",
-                    "Angular",
-                    "OpenAPI",
-                    "jQuery",
-                    "Spring",
-                    "Scrum Environment"
-                ]
-            },
-            {
-                "occupation" : "Internship as IOT Developer",
-                "logo" : "../../images/logos/michelin.png",
-                "url" : "https://www.michelin.fr",
-                "duration" : "2015",
-                "entreprise" : "Michelin",
-                "location" : "Clermont-Ferrand",
-                "description" : "End of year internship, study of the Internet of Things Market, making of a IOT prototype.",
-                "tags" : [
-                    "MongoDB",
-                    "Node.js",
-                    "Word",
-                    "Powerpoint"
-                ]
-            }
-        ],
-        "education" : [
-            {
-                "occupation" : "Associate's Degree in Computer Science / Digital Imaging *",
-                "logo" : "../../images/logos/www.iut-clermont.png",
-                "url" : "https://www.iut-clermont.fr/",
-                "duration" : "Class of 2015",
-                "entreprise" : "University of Auvergne",
-                "location" : "Le Puy-en-Velay",
-                "description" : "Real Time 3D development, Web, 3D computer graphic, image retouch.",
-                "commentaire" : "* Translation of DUT Informatique - Imagerie Numérique",
-                "tags" : [
-                    "Unity",
-                    "3DSMax",
-                    "Photoshop",
-                    "C++",
-                    "Python",
-                    "Web Design"
-                ]
-            }
-        ]
+  "title": "Anthony Yvon Dumas",
+  "subtitle": "Software Developer @ Harvest",
+  "curriculumVitaeLink": "CV (in .pdf)",
+  "experienceCard": {
+    "title": {
+      "experience": "Experience",
+      "education": "Education"
     },
-    "projectCard" : {
-        "projects" : [
-            {
-                "title" : "IOT@Michelin",
-                "url" : "https://prezi.com/m/o8ey8mmpnkvp/",
-                "image" : "../../images/portfolio/computerNonSense.jpg",
-                "imgAlt" : "An IOT prototype.",
-                "imgTitle" : "An IOT prototype."
-            },
-            {
-                "title" : "ADM Photographie",
-                "url" : "https://photos.adm.ink/",
-                "image" : "../../images/portfolio/admPhotos.jpg",
-                "imgAlt" : "A picture of a beautiful town.",
-                "imgTitle" : "A picture of a beautiful town."
-            }
+    "experiences": [
+      {
+        "occupation": "Software Developer",
+        "logo": "../../images/logos/harvest.fr.png",
+        "url": "https://www.harvest.fr",
+        "duration": "(since 2016)",
+        "entreprise": "Harvest",
+        "location": "Clermont-Ferrand",
+        "description": "Development of responsive websites and APIs for wealth management and finance professionals.",
+        "tags": [
+          "Java EE",
+          "Angular",
+          "OpenAPI",
+          "jQuery",
+          "Spring",
+          "Scrum Environment"
         ]
-    },
-    "contactCard" : {
-        "title" : "Contact",
-        "subtitle" : "You can contact me in many different ways :",
-        "ways" : [
-            {
-                "title" : "Email",
-                "url" : "mailto:anthony@dumas.cc",
-                "icon" : "mail-unread"
-            },
-            {
-                "title" : "LinkedIn",
-                "url" : "https://www.linkedin.com/in/anthonyyvondumas/",
-                "icon" : "logo-linkedin"
-            },
-            {
-                "title" : "Discord",
-                "url" : "https://discord.com/users/66154147279273984",
-                "icon" : "call"
-            },
-            {
-                "title" : "Twitter",
-                "url" : "https://twitter.com/adamas_fr",
-                "icon" : "logo-twitter"
-            }
-        ]
-    },
-    "footer" : {
-        "legalNotice" : "Copyright © 2014 - 2021 Anthony Dumas. All rights reserved.",
-        "darkThemeNotice" : "(This is the dark theme)"
-    }
+      },
+      {
+        "occupation": "Internship as IOT Developer",
+        "logo": "../../images/logos/michelin.png",
+        "url": "https://www.michelin.fr",
+        "duration": "2015",
+        "entreprise": "Michelin",
+        "location": "Clermont-Ferrand",
+        "description": "End of year internship, study of the Internet of Things Market, making of a IOT prototype.",
+        "tags": ["MongoDB", "Node.js", "Word", "Powerpoint"]
+      }
+    ],
+    "education": [
+      {
+        "occupation": "Associate's Degree in Computer Science / Digital Imaging *",
+        "logo": "../../images/logos/www.iut-clermont.png",
+        "url": "https://www.iut-clermont.fr/",
+        "duration": "Class of 2015",
+        "entreprise": "University of Auvergne",
+        "location": "Le Puy-en-Velay",
+        "description": "Real Time 3D development, Web, 3D computer graphic, image retouch.",
+        "commentaire": "* Translation of DUT Informatique - Imagerie Numérique",
+        "tags": ["Unity", "3DSMax", "Photoshop", "C++", "Python", "Web Design"]
+      }
+    ]
+  },
+  "projectCard": {
+    "projects": [
+      {
+        "title": "IOT@Michelin",
+        "url": "https://prezi.com/m/o8ey8mmpnkvp/",
+        "image": "../../images/portfolio/computerNonSense.jpg",
+        "imgAlt": "An IOT prototype.",
+        "imgTitle": "An IOT prototype."
+      },
+      {
+        "title": "ADM Photographie",
+        "url": "https://photos.adm.ink/",
+        "image": "../../images/portfolio/admPhotos.jpg",
+        "imgAlt": "A picture of a beautiful town.",
+        "imgTitle": "A picture of a beautiful town."
+      }
+    ]
+  },
+  "contactCard": {
+    "title": "Contact",
+    "subtitle": "You can contact me in many different ways :",
+    "ways": [
+      {
+        "title": "Email",
+        "url": "mailto:anthony@dumas.cc",
+        "icon": "md-mail-unread"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/anthonyyvondumas/",
+        "icon": "logo-linkedin"
+      },
+      {
+        "title": "Discord",
+        "url": "https://discord.com/users/66154147279273984",
+        "icon": "md-call"
+      },
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/adamas_fr",
+        "icon": "logo-twitter"
+      }
+    ]
+  },
+  "footer": {
+    "legalNotice": "Copyright © 2014 - 2021 Anthony Dumas. All rights reserved.",
+    "darkThemeNotice": "(This is the dark theme)"
+  }
 }

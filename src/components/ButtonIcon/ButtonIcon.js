@@ -13,7 +13,7 @@ export default class ButtonIcon extends Component {
       aria-label="Profil {this.props.icon}">
       <button class="button">
         <span class="icon">
-          <ion-icon name={this.props.icon}></ion-icon>
+          <i className={"ion-" + this.props.icon}></i>
         </span>
       </button>
     </a>;

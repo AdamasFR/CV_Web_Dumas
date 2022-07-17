@@ -1,126 +1,116 @@
 {
-    "title":"Anthony Yvon Dumas",
-    "subtitle":"Software Developer @ Harvest",
-    "curriculumVitaeLink" : "CV (.pdf)",
-    "experienceCard" : {
-        "title" : {
-            "experience" : "Expériences professionnelles",
-            "education" : "Études et diplômes"
-        },
-        "experiences" : [
-            {
-                "occupation" : "Software Developer",
-                "logo" : "../../images/logos/harvest.fr.png",
-                "url" : "https://www.harvest.fr",
-                "duration" : "depuis 2016",
-                "entreprise" : "Harvest",
-                "location" : "Clermont-Ferrand",
-                "description" : "Développement de simulateurs dédiés au conseil et à la vente de produits bancaires.",
-                "tags" : [
-                    "Java EE",
-                    "Angular",
-                    "OpenAPI",
-                    "jQuery",
-                    "Spring",
-					"Environnement Scrum"
-                ]
-            },
-            {
-                "occupation" : "Stagiaire Développeur Internet des Objets",
-                "logo" : "../../images/logos/michelin.png",
-                "url" : "https://www.michelin.fr",
-                "duration" : "2015",
-                "entreprise" : "Michelin",
-                "location" : "Clermont-Ferrand",
-                "description" : "Stage de fin d'étude DUT, etude du marché des objets connectés, création d'un prototype embarqué.",
-                "tags" : [
-                    "MongoDB",
-                    "Node.js",
-                    "Word",
-                    "Powerpoint",
-					"Environnement Scrum"
-                ]
-            }
-        ],
-        "education" : [
-            {
-                "occupation" : "DUT Informatique - Imagerie Numérique",
-                "logo" : "../../images/logos/www.iut-clermont.png",
-                "url" : "https://www.iut-clermont.fr/",
-                "duration" : "Promotion 2015",
-                "entreprise" : "Université d'Auvergne",
-                "location" : "Le Puy-en-Velay",
-                "description" : "Programmation 3D temps réel, Web, infographie 3D, retouche d'image.",
-                "tags" : [
-                    "Unity",
-                    "3DSMax",
-                    "Photoshop",
-                    "C++",
-                    "Python",
-                    "Web Design"
-                ]
-            },
-            {
-                "occupation" : "L2 Informatique",
-                "logo" : "../../images/logos/www.uca.fr.png",
-                "url" : "https://www.uca.fr",
-                "duration" : "2016",
-                "entreprise" : "Université Clermont-Auvergne",
-                "location" : "Clermont-Ferrand",
-                "description" : "",
-                "tags" : [
-                    "Python",
-                    "Linux"
-                ]
-            }
-        ]
+  "title": "Anthony Yvon Dumas",
+  "subtitle": "Software Developer @ Harvest",
+  "curriculumVitaeLink": "CV (.pdf)",
+  "experienceCard": {
+    "title": {
+      "experience": "Expériences professionnelles",
+      "education": "Études et diplômes"
     },
-    "projectCard" : {
-        "projects" : [
-            {
-                "title" : "IOT@Michelin",
-                "url" : "https://prezi.com/m/o8ey8mmpnkvp/",
-                "image" : "../../images/portfolio/computerNonSense.jpg",
-                "imgAlt" : "Une photo d'un micro ordinateur dans ma main",
-                "imgTitle" : "Une photo d'un micro ordinateur dans ma main"
-            },
-            {
-                "title" : "ADM Photographie",
-                "url" : "https://photos.adm.ink/",
-                "image" : "../../images/portfolio/admPhotos.jpg",
-                "imgAlt" : "Une photo du village de mon enfance",
-                "imgTitle" : "Une photo du village de mon enfance"
-            }
+    "experiences": [
+      {
+        "occupation": "Software Developer",
+        "logo": "../../images/logos/harvest.fr.png",
+        "url": "https://www.harvest.fr",
+        "duration": "depuis 2016",
+        "entreprise": "Harvest",
+        "location": "Clermont-Ferrand",
+        "description": "Développement de simulateurs dédiés au conseil et à la vente de produits bancaires.",
+        "tags": [
+          "Java EE",
+          "Angular",
+          "OpenAPI",
+          "jQuery",
+          "Spring",
+          "Environnement Scrum"
         ]
-    },
-    "contactCard" : {
-        "title" : "Contact",
-        "subtitle" : "Vous pouvez me contacter de nombreuses façons !",
-        "ways" : [
-            {
-                "title" : "Courriel",
-                "url" : "mailto:anthony@dumas.cc",
-                "icon" : "mail-unread"
-            },
-            {
-                "title" : "LinkedIn",
-                "url" : "https://www.linkedin.com/in/anthonyyvondumas/",
-                "icon" : "logo-linkedin"
-            },
-            {
-                "title" : "Discord",
-                "url" : "https://discord.com/users/66154147279273984",
-                "icon" : "call"
-            },
-            {
-                "title" : "Twitter",
-                "url" : "https://twitter.com/adamas_fr",
-                "icon" : "logo-twitter"
-            }
+      },
+      {
+        "occupation": "Stagiaire Développeur Internet des Objets",
+        "logo": "../../images/logos/michelin.png",
+        "url": "https://www.michelin.fr",
+        "duration": "2015",
+        "entreprise": "Michelin",
+        "location": "Clermont-Ferrand",
+        "description": "Stage de fin d'étude DUT, etude du marché des objets connectés, création d'un prototype embarqué.",
+        "tags": [
+          "MongoDB",
+          "Node.js",
+          "Word",
+          "Powerpoint",
+          "Environnement Scrum"
         ]
-    },
-    "footer" : {
-        "legalNotice" : "Copyright © 2014 - 2022 Anthony Dumas.",
-        "darkThemeNotice" : "(Ceci est le thème sombre)"
-    }
+      }
+    ],
+    "education": [
+      {
+        "occupation": "DUT Informatique - Imagerie Numérique",
+        "logo": "../../images/logos/www.iut-clermont.png",
+        "url": "https://www.iut-clermont.fr/",
+        "duration": "Promotion 2015",
+        "entreprise": "Université d'Auvergne",
+        "location": "Le Puy-en-Velay",
+        "description": "Programmation 3D temps réel, Web, infographie 3D, retouche d'image.",
+        "tags": ["Unity", "3DSMax", "Photoshop", "C++", "Python", "Web Design"]
+      },
+      {
+        "occupation": "L2 Informatique",
+        "logo": "../../images/logos/www.uca.fr.png",
+        "url": "https://www.uca.fr",
+        "duration": "2016",
+        "entreprise": "Université Clermont-Auvergne",
+        "location": "Clermont-Ferrand",
+        "description": "",
+        "tags": ["Python", "Linux"]
+      }
+    ]
+  },
+  "projectCard": {
+    "projects": [
+      {
+        "title": "IOT@Michelin",
+        "url": "https://prezi.com/m/o8ey8mmpnkvp/",
+        "image": "../../images/portfolio/computerNonSense.jpg",
+        "imgAlt": "Une photo d'un micro ordinateur dans ma main",
+        "imgTitle": "Une photo d'un micro ordinateur dans ma main"
+      },
+      {
+        "title": "ADM Photographie",
+        "url": "https://photos.adm.ink/",
+        "image": "../../images/portfolio/admPhotos.jpg",
+        "imgAlt": "Une photo du village de mon enfance",
+        "imgTitle": "Une photo du village de mon enfance"
+      }
+    ]
+  },
+  "contactCard": {
+    "title": "Contact",
+    "subtitle": "Vous pouvez me contacter de nombreuses façons !",
+    "ways": [
+      {
+        "title": "Courriel",
+        "url": "mailto:anthony@dumas.cc",
+        "icon": "md-mail-unread"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/anthonyyvondumas/",
+        "icon": "logo-linkedin"
+      },
+      {
+        "title": "Discord",
+        "url": "https://discord.com/users/66154147279273984",
+        "icon": "md-call"
+      },
+      {
+        "title": "Twitter",
+        "url": "https://twitter.com/adamas_fr",
+        "icon": "logo-twitter"
+      }
+    ]
+  },
+  "footer": {
+    "legalNotice": "Copyright © 2014 - 2022 Anthony Dumas.",
+    "darkThemeNotice": "(Ceci est le thème sombre)"
+  }
 }
