@@ -10,7 +10,7 @@
     "experiences": [
       {
         "occupation": "Software Developer",
-        "logo": "../../images/logos/harvest.fr.png",
+        "logo": "../../images/logos/harvest.fr.webp",
         "url": "https://www.harvest.fr",
         "duration": "depuis 2016",
         "entreprise": "Harvest",
@@ -27,7 +27,7 @@
       },
       {
         "occupation": "Stagiaire Développeur Internet des Objets",
-        "logo": "../../images/logos/michelin.png",
+        "logo": "../../images/logos/michelin.webp",
         "url": "https://www.michelin.fr",
         "duration": "2015",
         "entreprise": "Michelin",
@@ -45,7 +45,7 @@
     "education": [
       {
         "occupation": "DUT Informatique - Imagerie Numérique",
-        "logo": "../../images/logos/www.iut-clermont.png",
+        "logo": "../../images/logos/www.iut-clermont.webp",
         "url": "https://www.iut-clermont.fr/",
         "duration": "Promotion 2015",
         "entreprise": "Université d'Auvergne",
@@ -55,7 +55,7 @@
       },
       {
         "occupation": "L2 Informatique",
-        "logo": "../../images/logos/www.uca.fr.png",
+        "logo": "../../images/logos/www.uca.fr.webp",
         "url": "https://www.uca.fr",
         "duration": "2016",
         "entreprise": "Université Clermont-Auvergne",
@@ -70,14 +70,14 @@
       {
         "title": "IOT@Michelin",
         "url": "https://prezi.com/m/o8ey8mmpnkvp/",
-        "image": "../../images/portfolio/computerNonSense.jpg",
+        "image": "../../images/portfolio/computerNonSense.webp",
         "imgAlt": "Une photo d'un micro ordinateur dans ma main",
         "imgTitle": "Une photo d'un micro ordinateur dans ma main"
       },
       {
         "title": "ADM Photographie",
         "url": "https://photos.adm.ink/",
-        "image": "../../images/portfolio/admPhotos.jpg",
+        "image": "../../images/portfolio/admPhotos.webp",
         "imgAlt": "Une photo du village de mon enfance",
         "imgTitle": "Une photo du village de mon enfance"
       }

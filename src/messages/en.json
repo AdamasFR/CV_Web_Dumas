@@ -10,7 +10,7 @@
     "experiences": [
       {
         "occupation": "Software Developer",
-        "logo": "../../images/logos/harvest.fr.png",
+        "logo": "../../images/logos/harvest.fr.webp",
         "url": "https://www.harvest.fr",
         "duration": "(since 2016)",
         "entreprise": "Harvest",
@@ -27,7 +27,7 @@
       },
       {
         "occupation": "Internship as IOT Developer",
-        "logo": "../../images/logos/michelin.png",
+        "logo": "../../images/logos/michelin.webp",
         "url": "https://www.michelin.fr",
         "duration": "2015",
         "entreprise": "Michelin",
@@ -39,7 +39,7 @@
     "education": [
       {
         "occupation": "Associate's Degree in Computer Science / Digital Imaging *",
-        "logo": "../../images/logos/www.iut-clermont.png",
+        "logo": "../../images/logos/www.iut-clermont.webp",
         "url": "https://www.iut-clermont.fr/",
         "duration": "Class of 2015",
         "entreprise": "University of Auvergne",
@@ -55,14 +55,14 @@
       {
         "title": "IOT@Michelin",
         "url": "https://prezi.com/m/o8ey8mmpnkvp/",
-        "image": "../../images/portfolio/computerNonSense.jpg",
+        "image": "../../images/portfolio/computerNonSense.webp",
         "imgAlt": "An IOT prototype.",
         "imgTitle": "An IOT prototype."
       },
       {
         "title": "ADM Photographie",
         "url": "https://photos.adm.ink/",
-        "image": "../../images/portfolio/admPhotos.jpg",
+        "image": "../../images/portfolio/admPhotos.webp",
         "imgAlt": "A picture of a beautiful town.",
         "imgTitle": "A picture of a beautiful town."
       }

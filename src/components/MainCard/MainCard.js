@@ -3,8 +3,8 @@ import './MainCard.scss';
 import { FormattedMessage, injectIntl } from 'react-intl';
 
 import React, { Component } from '../../../node_modules/react';
-import headshotFond from '../../images/headshot_fond.png';
-import headshotMain from '../../images/headshot_main.png';
+import headshotFond from '../../images/headshot_fond.webp';
+import headshotMain from '../../images/headshot_main.webp';
 import ButtonIcon from '../ButtonIcon/index';
 import ExperienceCard from '../ExperienceCard/index';
 
@@ -23,8 +23,8 @@ class MainCard extends Component {
                             <div class="card">
                                 <div class="card-image">
                                     <figure id="photoProfil" class="image">
-                                        <img class="background" src={headshotFond} alt="Anthony Dumas" />
-                                        <img class="actor" src={headshotMain} alt="Anthony Dumas" />
+                                        <img fetchpriority="high" class="background" src={headshotFond} alt="Anthony Dumas" />
+                                        <img fetchpriority="high" class="actor" src={headshotMain} alt="Anthony Dumas" />
                                     </figure>
                                 </div>
                                 <div class="card-content">
