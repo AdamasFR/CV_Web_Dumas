@@ -52,7 +52,7 @@ class MainCard extends Component {
                                                     href="https://files.adm.ink/anthony-dumas-cv.pdf" >
                                                     <button class="button is-fullwidth">
                                                         <span class="icon">
-                                                            <i className={"ion-" + "md-document"}></i>
+                                                            <i className={"ion-md-document"}></i>
                                                         </span>
                                                         <span><FormattedMessage id="curriculumVitaeLink" /></span>
                                                     </button>
