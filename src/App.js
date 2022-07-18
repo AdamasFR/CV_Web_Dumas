@@ -1,20 +1,31 @@
 import './App.css';
 import './_sass/index.scss';
 
-import MenuComponent from './components/MenuComponent/index';
-import MainCard from './components/MainCard/MainCard';
-import ProjectsCard from './components/ProjectsCard';
-import ContactCard from './components/ContactCard';
-import FooterCard from './components/FooterCard';
+import { lazy, Suspense } from 'react';
+
+
+const MenuComponent = lazy(() => import('./components/MenuComponent/index'));
+const MainCard = lazy(() => import('./components/MainCard/MainCard'));
+const ProjectsCard = lazy(() => import('./components/ProjectsCard'));
+const ContactCard = lazy(() => import('./components/ContactCard'));
+const FooterCard = lazy(() => import('./components/FooterCard'));
+
+const renderLoader = () => <p>Loading</p>;
 
 function App() {
   return (
     <div className="App">
-      <MenuComponent/>
-      <MainCard/>
-      <ProjectsCard/>
-      <ContactCard/>
-      <FooterCard/>
+      <Suspense fallback={renderLoader()}>
+        <MenuComponent />
+      </Suspense>
+      <Suspense fallback={renderLoader()}>
+        <MainCard />
+      </Suspense>
+      <Suspense fallback={renderLoader()}>
+        <ProjectsCard />
+        <ContactCard />
+        <FooterCard />
+      </Suspense>
     </div>
   );
 }
