@@ -37,10 +37,10 @@ class MenuComponent extends Component {
             <div class="column is-hidden-touch">
               <div id="langButtons">
                 <div class="buttons">
-                  <span class="button is-light" onClick={this.honhonhon}>
+                  <span className="button is-light" onClick={this.honhonhon} aria-label="Visiter le site en Français">
                     {buttonsLanguagesMessage.fr}
                   </span>
-                  <span class="button is-light" onClick={this.heygovna}>
+                  <span className="button is-light" onClick={this.heygovna} aria-label="Visit the website in English">
                     {buttonsLanguagesMessage.en}
                   </span>
                 </div>

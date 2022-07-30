@@ -75,22 +75,26 @@
       {
         "title": "Email",
         "url": "mailto:anthony@dumas.cc",
-        "icon": "md-mail-unread"
+        "icon": "md-mail-unread",
+        "aria-label": "Email"
       },
       {
         "title": "LinkedIn",
         "url": "https://www.linkedin.com/in/anthonyyvondumas/",
-        "icon": "logo-linkedin"
+        "icon": "logo-linkedin",
+        "aria-label": "LinkedIn"
       },
       {
         "title": "Discord",
         "url": "https://discord.com/users/66154147279273984",
-        "icon": "md-call"
+        "icon": "md-call",
+        "aria-label": "Discord"
       },
       {
         "title": "Twitter",
         "url": "https://twitter.com/adamas_fr",
-        "icon": "logo-twitter"
+        "icon": "logo-twitter",
+        "aria-label": "Twitter"
       }
     ]
   },

@@ -23,8 +23,8 @@ class MainCard extends Component {
                             <div class="card">
                                 <div class="card-image">
                                     <figure id="photoProfil" class="image">
-                                        <img fetchpriority="high" class="background" src={headshotFond} alt="Anthony Dumas" />
-                                        <img fetchpriority="high" class="actor" src={headshotMain} alt="Anthony Dumas" />
+                                        <img fetchpriority="high" class="background" src={headshotFond} alt="Anthony Dumas" style={{ height: '412px' }} />
+                                        <img fetchpriority="high" class="actor" src={headshotMain} alt="Anthony Dumas" style={{ height: '412px' }} />
                                     </figure>
                                 </div>
                                 <div class="card-content">
@@ -34,23 +34,26 @@ class MainCard extends Component {
                                                 <p class="control">
                                                     <ButtonIcon
                                                         icon="logo-github"
+                                                        aria-label="Github"
                                                         lien="https://github.com/AdamasFR" />
                                                 </p>
                                                 <p class="control">
                                                     <ButtonIcon
                                                         icon="logo-linkedin"
+                                                        aria-label="Linkedin"
                                                         lien="https://www.linkedin.com/in/anthonyyvondumas/" />
                                                 </p>
                                                 <p class="control">
                                                     <ButtonIcon
                                                         icon="logo-twitter"
+                                                        aria-label="Twitter"
                                                         lien="https://www.twitter.com/adamas_fr" />
                                                 </p>
                                             </p>
                                             <p id="boutonCV" class="field">
                                                 <a rel="noreferrer noopener" target="_blank"
                                                     href="https://files.adm.ink/anthony-dumas-cv.pdf" >
-                                                    <button class="button is-fullwidth">
+                                                    <button class="button is-fullwidth" aria-label="Bouton Curriculum Vitæ">
                                                         <span class="icon">
                                                             <i className={"ion-md-document"}></i>
                                                         </span>
