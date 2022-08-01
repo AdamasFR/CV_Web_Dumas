@@ -23,8 +23,8 @@ class MainCard extends Component {
                             <div class="card">
                                 <div class="card-image">
                                     <figure id="photoProfil" class="image">
-                                        <img fetchpriority="high" class="background" src={headshotFond} alt="Anthony Dumas" style={{ height: '412px' }} />
-                                        <img fetchpriority="high" class="actor" src={headshotMain} alt="Anthony Dumas" style={{ height: '412px' }} />
+                                        <img fetchpriority="high" class="background" src={headshotFond} alt="Anthony Dumas" />
+                                        <img fetchpriority="high" class="actor" src={headshotMain} alt="Anthony Dumas" />
                                     </figure>
                                 </div>
                                 <div class="card-content">
