@@ -15,10 +15,8 @@ const renderLoader = () => <p>Loading</p>;
 function App() {
   return (
     <div className="App">
-      <Suspense fallback={renderLoader()}>
+      <Suspense className="topNavigation" fallback={renderLoader()}>
         <MenuComponent />
-      </Suspense>
-      <Suspense fallback={renderLoader()}>
         <MainCard />
       </Suspense>
       <Suspense fallback={renderLoader()}>
