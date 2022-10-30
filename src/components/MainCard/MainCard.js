@@ -14,12 +14,12 @@ class MainCard extends Component {
         var metaThemeColor = document.querySelector("meta[name=theme-color]");
         metaThemeColor.setAttribute("content", window.matchMedia('(prefers-color-scheme: dark)').matches ? "#25444b" : "#5c9ead");
         const experienceCardMessage = this.props.intl.messages.experienceCard;
-        return <section id="idCard" class="hero is-medium is-primary-inverted is-bold">
+        return <section id="idCard" class="hero is-medium is-info">
             <div class="hero-body">
                 <div class="container">
                     <div class="columns">
                         <div class="column is-2 is-hidden-touch is-hidden-desktop-only dontPrint"></div>
-                        <div id="photosAndButtons" class="column is-3-widescreen is-4-tablet">
+                        <div id="photosAndButtons" class="column is-3-widescreen is-4-tablet is-success">
                             <div class="card">
                                 <div class="card-image">
                                     <figure id="photoProfil" class="image">

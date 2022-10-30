@@ -3,10 +3,10 @@
 /**
     Thème
 **/
-$deep-koamaru: #2b4162;
-$myrtle-green: #326273;
-$cadet-blue: #5c9ead;
-$neon-carrot: #fa9f42;
+$deep-koamaru: #152528;
+$myrtle-green: #1d353a;
+$cadet-blue: #25444b;
+$neon-carrot: #142225;
 $white: #ffffff;
 
 /**
@@ -17,6 +17,7 @@ $primary-invert: #fff;
 $info: $myrtle-green;
 $info-invert: #fff;
 $footer-color: $deep-koamaru;
+$success: $deep-koamaru;
 $link: $neon-carrot;
 $link-hover: "";
 
@@ -26,10 +27,6 @@ html {
 
 body {
   overflow-x: hidden;
-}
-
-.dark-theme-only {
-  display: none;
 }
 
 @import "../../node_modules/bulma/bulma";
@@ -44,10 +41,6 @@ body {
   // permet de re-aligner les tags avec les subtitles
   .tags {
     margin-top: -1.25rem;
-  }
-
-  .card {
-    background-color: unset;
   }
 }
 
@@ -101,17 +94,21 @@ footer small {
 
 // Photo de Profil
 #photoProfil {
-  background-color: lightgray;
+  background-color: $primary;
+}
+
+.tile.is-vertical {
+  background-color: unset;
 }
 
 // fix d'un affichage désagréable sur la carte Bulma
 #photosAndButtons .card {
   border-radius: unset;
+  box-shadow: unset;
+  background-color: $deep-koamaru;
 }
 
 #mailWhenNoJavascript {
   text-align: left;
   font-size: 20px;
 }
-
-@import "dark-theme";
