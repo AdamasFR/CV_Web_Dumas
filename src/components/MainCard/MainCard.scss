@@ -13,16 +13,3 @@
 #boutonCV a {
   display: flex;
 }
-
-@keyframes actorZoom {
-  from {
-    transform: scale(100%);
-  }
-  to {
-    transform: scale(110%);
-  }
-}
-
-#photoProfil:hover .actor {
-  animation: 4s linear 0s infinite alternate actorZoom;
-}
