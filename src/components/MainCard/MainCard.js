@@ -45,9 +45,9 @@ class MainCard extends Component {
                                                 </p>
                                                 <p class="control">
                                                     <ButtonIcon
-                                                        icon="logo-twitter"
-                                                        aria-label="Twitter"
-                                                        lien="https://www.twitter.com/adamas_fr" />
+                                                        icon="logo-mastodon"
+                                                        aria-label="Mastodon"
+                                                        lien="https://imaginair.es/@adamas" />
                                                 </p>
                                             </p>
                                             <p id="boutonCV" class="field">
@@ -55,7 +55,7 @@ class MainCard extends Component {
                                                     href="https://files.adm.ink/anthony-dumas-cv.pdf" >
                                                     <button class="button is-fullwidth" aria-label="Bouton Curriculum Vitæ">
                                                         <span class="icon">
-                                                            <i className={"ion-md-document"}></i>
+                                                            <ion-icon name="document-attach-outline"></ion-icon>
                                                         </span>
                                                         <span><FormattedMessage id="curriculumVitaeLink" /></span>
                                                     </button>

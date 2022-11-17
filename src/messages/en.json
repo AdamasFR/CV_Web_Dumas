@@ -75,7 +75,7 @@
       {
         "title": "Email",
         "url": "mailto:anthony@dumas.cc",
-        "icon": "md-mail-unread",
+        "icon": "mail-outline",
         "aria-label": "Email"
       },
       {
@@ -85,16 +85,16 @@
         "aria-label": "LinkedIn"
       },
       {
-        "title": "Discord",
-        "url": "https://discord.com/users/66154147279273984",
-        "icon": "md-call",
-        "aria-label": "Discord"
+        "title": "Telegram",
+        "url": "https://t.me/adamas_FR",
+        "icon": "call-outline",
+        "aria-label": "Telegram"
       },
       {
-        "title": "Twitter",
-        "url": "https://twitter.com/adamas_fr",
-        "icon": "logo-twitter",
-        "aria-label": "Twitter"
+        "title": "Mastodon",
+        "url": "https://imaginair.es/@adamas",
+        "icon": "logo-mastodon",
+        "aria-label": "Mastodon"
       }
     ]
   },
