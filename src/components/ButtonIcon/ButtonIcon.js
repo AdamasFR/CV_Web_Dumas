@@ -9,7 +9,7 @@ export default class ButtonIcon extends Component {
   //     this.state = {};
   // }
   render() {
-    return <a rel="noopener noreferrer" href={this.props.lien} target="_blank">
+    return <a rel="noopener noreferrer me" href={this.props.lien} target="_blank">
       <button className="button" aria-label="Bouton {this.props.aria-label}">
         <span class="icon">
           <ion-icon name={this.props.icon}></ion-icon>
