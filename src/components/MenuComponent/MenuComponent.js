@@ -2,7 +2,7 @@ import './MenuComponent.scss';
 
 import { FormattedMessage, injectIntl } from 'react-intl';
 
-import React, { Component } from '../../../node_modules/react';
+import React, { Component } from 'react';
 import { URL_add_parameter } from '../../services/parameters.service';
 
 

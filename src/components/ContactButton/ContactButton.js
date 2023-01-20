@@ -1,6 +1,6 @@
 import './ContactButton.scss';
 
-import React, { Component } from '../../../node_modules/react';
+import React, { Component } from 'react';
 
 
 // import { connect } from "react-redux";

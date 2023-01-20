@@ -2,7 +2,7 @@ import './FooterCard.scss';
 
 import { injectIntl } from 'react-intl';
 
-import React, { Component } from '../../../node_modules/react';
+import React, { Component } from 'react';
 import bulmaLogo from '../../images/made-with-bulma.webp';
 
 

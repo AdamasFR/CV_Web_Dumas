@@ -2,7 +2,7 @@ import './ProjectsCard.scss';
 
 import { injectIntl } from 'react-intl';
 
-import React, { Component } from '../../../node_modules/react';
+import React, { Component } from 'react';
 import ProjectCard from '../ProjectCard/index';
 
 

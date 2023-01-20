@@ -2,7 +2,7 @@ import './MainCard.scss';
 
 import { FormattedMessage, injectIntl } from 'react-intl';
 
-import React, { Component } from '../../../node_modules/react';
+import React, { Component } from 'react';
 import headshotFond from '../../images/headshot_fond.webp';
 import headshotMain from '../../images/headshot_main.webp';
 import ButtonIcon from '../ButtonIcon/index';
