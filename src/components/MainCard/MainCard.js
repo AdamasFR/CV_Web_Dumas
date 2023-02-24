@@ -7,13 +7,19 @@ import headshotFond from '../../images/headshot_fond.webp';
 import headshotMain from '../../images/headshot_main.webp';
 import ButtonIcon from '../ButtonIcon/index';
 import ExperienceCard from '../ExperienceCard/index';
-
+import { PowerGlitch } from 'powerglitch';
 
 class MainCard extends Component {
+
+    glitching() {
+        PowerGlitch.glitch('#photoProfil');
+    }
+
     render() {
         var metaThemeColor = document.querySelector("meta[name=theme-color]");
         metaThemeColor.setAttribute("content", window.matchMedia('(prefers-color-scheme: dark)').matches ? "#25444b" : "#5c9ead");
         const experienceCardMessage = this.props.intl.messages.experienceCard;
+
         return <section id="idCard" class="hero is-medium is-info">
             <div class="hero-body">
                 <div class="container">
@@ -22,7 +28,7 @@ class MainCard extends Component {
                         <div id="photosAndButtons" class="column is-3-widescreen is-4-tablet is-success">
                             <div class="card">
                                 <div class="card-image">
-                                    <figure id="photoProfil" class="image">
+                                    <figure id="photoProfil" class="image" onMouseOver={this.glitching} >
                                         <img fetchpriority="high" class="background" src={headshotFond} alt="Anthony Dumas" />
                                         <img fetchpriority="high" class="actor" src={headshotMain} alt="Anthony Dumas" />
                                     </figure>
