@@ -26,6 +26,16 @@
         ]
       },
       {
+        "occupation": "Event Coordinator",
+        "logo": "../../images/logos/laclameur.org.webp",
+        "url": "https://www.laclameur.org",
+        "duration": "since 2021",
+        "entreprise": "La Clameur (Non-Profit Law 1901)",
+        "location": "remote",
+        "description": "",
+        "tags": ["Notion", "CPanel", "Wordpress", "RSS"]
+      },
+      {
         "occupation": "Internship as IOT Developer",
         "logo": "../../images/logos/michelin.webp",
         "url": "https://www.michelin.fr",
