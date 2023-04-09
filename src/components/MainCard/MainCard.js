@@ -1,44 +1,45 @@
 import './MainCard.scss';
 
+import { PowerGlitch } from 'powerglitch';
+import React, { Component } from 'react';
 import { FormattedMessage, injectIntl } from 'react-intl';
 
-import React, { Component } from 'react';
 import headshotFond from '../../images/headshot_fond.webp';
 import headshotMain from '../../images/headshot_main.webp';
 import ButtonIcon from '../ButtonIcon/index';
 import ExperienceCard from '../ExperienceCard/index';
-import { PowerGlitch } from 'powerglitch';
+
 
 class MainCard extends Component {
 
     componentDidMount() {
         PowerGlitch.glitch('img',
-        {
-            playMode: 'hover',
-            hideOverflow: true,
-            timing: {
-                duration: 1000,
-                iterations: 15,
-                easing: 'ease-in-out',
-            },
-            glitchTimeSpan: {
-                start: 0.0,
-                end: 0.7,
-            },
-            shake: {
-                velocity: 10,
-                amplitudeX: 0.4,
-                amplitudeY: 0.4,
-            },
-            slice: {
-                count: 4,
-                velocity: 10,
-                minHeight: 0.02,
-                maxHeight: 0.40,
-                hueRotate: true,
-            },
-        }
-    );
+            {
+                playMode: 'hover',
+                hideOverflow: true,
+                timing: {
+                    duration: 1000,
+                    iterations: 15,
+                    easing: 'ease-in-out',
+                },
+                glitchTimeSpan: {
+                    start: 0.0,
+                    end: 0.7,
+                },
+                shake: {
+                    velocity: 10,
+                    amplitudeX: 0.4,
+                    amplitudeY: 0.4,
+                },
+                slice: {
+                    count: 4,
+                    velocity: 10,
+                    minHeight: 0.02,
+                    maxHeight: 0.40,
+                    hueRotate: true,
+                },
+            }
+        );
     }
     render() {
         var metaThemeColor = document.querySelector("meta[name=theme-color]");
