@@ -16,7 +16,7 @@ class FooterCard extends Component {
     // }
     render() {
         const footerMessage = this.props.intl.messages.footer;
-        return <footer class="footer has-text-centered dontPrint">
+        return <footer class="footer has-text-centered no-print">
             <div class="container">
                 <div class="columns">
                     <div class="column is-8-desktop is-offset-2-desktop">

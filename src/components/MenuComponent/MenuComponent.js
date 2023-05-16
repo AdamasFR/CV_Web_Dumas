@@ -22,7 +22,7 @@ class MenuComponent extends Component {
 
   render() {
     const buttonsLanguagesMessage = this.props.intl.messages.global.buttons.languages;
-    return <section id="menu" class="hero is-primary dontPrint">
+    return <section id="menu" class="hero is-primary no-print">
       <div class="hero-body">
         <div class="container">
           <div class="columns">

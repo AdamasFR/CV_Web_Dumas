@@ -15,7 +15,7 @@ class ContactCard extends Component {
     // }
     render() {
       const contactCardMessage = this.props.intl.messages.contactCard;
-      return <section class="hero is-info dontPrint" id="contact">
+      return <section class="hero is-info no-print" id="contact">
       <div class="hero-body">
           <div class="container">
               <h1 class="title">
