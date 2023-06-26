@@ -1,8 +1,18 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from 'react';
+import { IntlProvider } from 'react-intl';
 
-test('renders Anthony Yvon Dumas', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Anthony Yvon Dumas/i);
-  expect(linkElement).toBeInTheDocument();
+import { render, screen } from '@testing-library/react';
+
+import MenuComponent from './App';
+import { getTexts } from './services/message.service';
+
+
+test('renders Anthony Yvon Dumas', async () => {
+  render(<IntlProvider locale={"fr"}
+    defaultLocale={"fr"}
+    messages={getTexts("fr")}>
+    <MenuComponent />
+  </IntlProvider>);
+  expect(await screen.findByText("Anthony Yvon Dumas")).toBeInTheDocument();
 });
+

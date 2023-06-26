@@ -1,8 +1,8 @@
 import './MenuComponent.scss';
 
+import React, { Component } from 'react';
 import { FormattedMessage, injectIntl } from 'react-intl';
 
-import React, { Component } from 'react';
 import { URL_add_parameter } from '../../services/parameters.service';
 
 
@@ -22,21 +22,22 @@ class MenuComponent extends Component {
 
   render() {
     const buttonsLanguagesMessage = this.props.intl.messages.global.buttons.languages;
-    return <section id="menu" class="hero is-primary dontPrint">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-              <h1 class="title">
+    const currentJob = this.props.intl.messages.experienceCard.experiences[0];
+    return <section id="menu" className="hero is-primary dontPrint">
+      <div className="hero-body">
+        <div className="container">
+          <div className="columns">
+            <div className="column">
+              <h1 className="title">
                 <FormattedMessage id="title" />
               </h1>
-              <h2 class="subtitle">
-                <FormattedMessage id="subtitle" />
+              <h2 className="subtitle">
+                {currentJob.occupation} @ {currentJob.entreprise}
               </h2>
             </div>
-            <div class="column is-hidden-touch">
+            <div className="column is-hidden-touch">
               <div id="langButtons">
-                <div class="buttons">
+                <div className="buttons">
                   <span className="button is-light" onClick={this.honhonhon} aria-label="Visiter le site en Français">
                     {buttonsLanguagesMessage.fr}
                   </span>
