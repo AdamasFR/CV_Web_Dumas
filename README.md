@@ -8,5 +8,5 @@ Je vous souhaite une excellente journée,
 
 **Anthony Dumas**
 
-Software Developer @ harvest.fr
+Software Engineer @ soprasteria.com
 ```
