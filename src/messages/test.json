@@ -18,16 +18,6 @@
         "tags": ["Java EE"]
       },
       {
-        "occupation": "Coordinateur événementiel",
-        "logo": "../../images/logos/laclameur.org.webp",
-        "url": "https://www.laclameur.org",
-        "duration": "depuis 2021",
-        "entreprise": "La Clameur (Association Loi 1901)",
-        "location": "en distanciel",
-        "description": "Coordination des événements de l'association, maintenance du site Internet et des fluxs RSS.",
-        "tags": ["Notion", "CPanel", "Wordpress", "RSS"]
-      },
-      {
         "occupation": "Software Developer",
         "logo": "../../images/logos/harvest.fr.webp",
         "url": "https://www.harvest.fr",
@@ -43,6 +33,16 @@
           "Spring",
           "Environnement Scrum"
         ]
+      },
+      {
+        "occupation": "Coordinateur événementiel",
+        "logo": "../../images/logos/laclameur.org.webp",
+        "url": "https://www.laclameur.org",
+        "duration": "depuis 2021",
+        "entreprise": "La Clameur (Association Loi 1901)",
+        "location": "en distanciel",
+        "description": "Coordination des événements de l'association, maintenance du site Internet et des fluxs RSS.",
+        "tags": ["Notion", "CPanel", "Wordpress", "RSS"]
       },
       {
         "occupation": "Stagiaire Développeur Internet des Objets",

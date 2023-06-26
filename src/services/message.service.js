@@ -23,7 +23,11 @@ export const language = function () {
 };
 
 export const langJson = function () {
-  const messageLocalized = i18nConfig.messages[language()];
+  return getTexts(language());
+};
+
+export const getTexts = function (lang) {
+  const messageLocalized = i18nConfig.messages[lang];
   const messageGlobal = i18nConfig.messages[GLOBAL_MESSAGE_KEY];
   const messageMerged = {
     ...messageLocalized,

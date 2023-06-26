@@ -1,20 +1,20 @@
 import './ProjectsCard.scss';
 
+import React, { Component } from 'react';
 import { injectIntl } from 'react-intl';
 
-import React, { Component } from 'react';
 import ProjectCard from '../ProjectCard/index';
 
 
 class ProjectsCard extends Component {
   render() {
     const projectCardsMessage = this.props.intl.messages.projectCard;
-    return <section id="projets" class="hero is-success">
-      <div class="hero-body">
-        <div class="container">
-          <div class="tile is-ancestor">
+    return <section id="projets" className="hero is-success">
+      <div className="hero-body">
+        <div className="container">
+          <div className="tile is-ancestor">
             {projectCardsMessage.projects.map(function (projects, index) {
-              return <ProjectCard
+              return <ProjectCard key={index}
                 data={projects}
               />;
             })}

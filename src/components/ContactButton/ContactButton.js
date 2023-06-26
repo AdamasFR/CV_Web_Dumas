@@ -13,10 +13,10 @@ export default class ContactButton extends Component {
   // }
   render() {
     const data = this.props.data;
-    return <div class="column is-3">
-      <a target="_blank" rel="noreferrer noopener" href={data.url} class="hide button is-large is-fullw-mobile"
+    return <div className="column is-3">
+      <a target="_blank" rel="noreferrer noopener" href={data.url} className="hide button is-large is-fullw-mobile"
         title={`Go to ${data.title}`}>
-        <span class="icon">
+        <span className="icon">
           <ion-icon name={data.icon}></ion-icon>
         </span>
         <span>{data.title}</span>

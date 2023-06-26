@@ -1,6 +1,5 @@
 {
   "title": "Anthony Yvon Dumas",
-  "subtitle": "Software Developer @ Harvest",
   "curriculumVitaeLink": "CV (in .pdf)",
   "experienceCard": {
     "title": {
@@ -8,6 +7,26 @@
       "education": "Education"
     },
     "experiences": [
+      {
+        "occupation": "Software Engineer",
+        "logo": "../../images/logos/soprasteria.co.uk.webp",
+        "url": "https://www.soprasteria.com/",
+        "duration": "since June 2023",
+        "entreprise": "Sopra Steria",
+        "location": "Clermont-Ferrand",
+        "description": "",
+        "tags": ["Java"]
+      },
+      {
+        "occupation": "Event Coordinator",
+        "logo": "../../images/logos/laclameur.org.webp",
+        "url": "https://www.laclameur.org",
+        "duration": "since 2021",
+        "entreprise": "La Clameur (Non-Profit Law 1901)",
+        "location": "remote",
+        "description": "",
+        "tags": ["Notion", "CPanel", "Wordpress", "RSS"]
+      },
       {
         "occupation": "Software Developer",
         "logo": "../../images/logos/harvest.fr.webp",
@@ -24,16 +43,6 @@
           "Spring",
           "Scrum Environment"
         ]
-      },
-      {
-        "occupation": "Event Coordinator",
-        "logo": "../../images/logos/laclameur.org.webp",
-        "url": "https://www.laclameur.org",
-        "duration": "since 2021",
-        "entreprise": "La Clameur (Non-Profit Law 1901)",
-        "location": "remote",
-        "description": "",
-        "tags": ["Notion", "CPanel", "Wordpress", "RSS"]
       },
       {
         "occupation": "Internship as IOT Developer",

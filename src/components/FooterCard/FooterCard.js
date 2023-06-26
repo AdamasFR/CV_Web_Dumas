@@ -1,8 +1,8 @@
 import './FooterCard.scss';
 
+import React, { Component } from 'react';
 import { injectIntl } from 'react-intl';
 
-import React, { Component } from 'react';
 import bulmaLogo from '../../images/made-with-bulma.webp';
 
 
@@ -16,17 +16,17 @@ class FooterCard extends Component {
     // }
     render() {
         const footerMessage = this.props.intl.messages.footer;
-        return <footer class="footer has-text-centered dontPrint">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-8-desktop is-offset-2-desktop">
+        return <footer className="footer has-text-centered dontPrint">
+            <div className="container">
+                <div className="columns">
+                    <div className="column is-8-desktop is-offset-2-desktop">
                         <p>
-                            <strong class="has-text-weight-semibold">
+                            <strong className="has-text-weight-semibold">
                                 anthony-dumas.fr
                             </strong>
                         </p>
                         <p>
-                            <small class="sosumi">
+                            <small className="sosumi">
                                 {footerMessage.legalNotice}
                             </small>
                         </p>

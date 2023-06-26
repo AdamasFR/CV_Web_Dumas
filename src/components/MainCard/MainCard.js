@@ -43,50 +43,52 @@ class MainCard extends Component {
     }
     render() {
         var metaThemeColor = document.querySelector("meta[name=theme-color]");
-        metaThemeColor.setAttribute("content", window.matchMedia('(prefers-color-scheme: dark)').matches ? "#25444b" : "#5c9ead");
+        if (metaThemeColor !== null) {
+            metaThemeColor.setAttribute("content", window.matchMedia('(prefers-color-scheme: dark)').matches ? "#25444b" : "#5c9ead");
+        }
         const experienceCardMessage = this.props.intl.messages.experienceCard;
 
-        return <section id="idCard" class="hero is-medium is-info">
-            <div class="hero-body">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-2 is-hidden-touch is-hidden-desktop-only dontPrint"></div>
-                        <div id="photosAndButtons" class="column is-3-widescreen is-4-tablet is-success">
-                            <div class="card">
-                                <div class="card-image">
-                                    <figure id="photoProfil" class="image" onMouseOver={this.glitching} >
-                                        <img fetchpriority="high" class="background" src={headshotFond} alt="Anthony Dumas" />
-                                        <img fetchpriority="high" class="actor" src={headshotMain} alt="Anthony Dumas" />
+        return <section id="idCard" className="hero is-medium is-info">
+            <div className="hero-body">
+                <div className="container">
+                    <div className="columns">
+                        <div className="column is-2 is-hidden-touch is-hidden-desktop-only dontPrint"></div>
+                        <div id="photosAndButtons" className="column is-3-widescreen is-4-tablet is-success">
+                            <div className="card">
+                                <div className="card-image">
+                                    <figure id="photoProfil" className="image" onMouseOver={this.glitching} >
+                                        <img fetchpriority="high" className="background" src={headshotFond} alt="Anthony Dumas" />
+                                        <img fetchpriority="high" className="actor" src={headshotMain} alt="Anthony Dumas" />
                                     </figure>
                                 </div>
-                                <div class="card-content">
-                                    <div class="media">
-                                        <div class="media-content">
-                                            <p id="buttonsUnderPhoto" class="field is-grouped">
-                                                <p class="control">
+                                <div className="card-content">
+                                    <div className="media">
+                                        <div className="media-content">
+                                            <div id="buttonsUnderPhoto" className="field is-grouped">
+                                                <p className="control">
                                                     <ButtonIcon
                                                         icon="logo-github"
                                                         aria-label="Github"
                                                         lien="https://github.com/AdamasFR" />
                                                 </p>
-                                                <p class="control">
+                                                <p className="control">
                                                     <ButtonIcon
                                                         icon="logo-linkedin"
                                                         aria-label="Linkedin"
                                                         lien="https://www.linkedin.com/in/anthonyyvondumas/" />
                                                 </p>
-                                                <p class="control">
+                                                <p className="control">
                                                     <ButtonIcon
                                                         icon="logo-mastodon"
                                                         aria-label="Mastodon"
                                                         lien="https://imaginair.es/@adamas" />
                                                 </p>
-                                            </p>
-                                            <p id="boutonCV" class="field">
+                                            </div>
+                                            <p id="boutonCV" className="field">
                                                 <a rel="noreferrer noopener" target="_blank"
                                                     href="https://files.adm.ink/anthony-dumas-cv.pdf" >
-                                                    <button class="button is-fullwidth" aria-label="Bouton Curriculum Vitæ">
-                                                        <span class="icon">
+                                                    <button className="button is-fullwidth" aria-label="Bouton Curriculum Vitæ">
+                                                        <span className="icon">
                                                             <ion-icon name="document-attach-outline"></ion-icon>
                                                         </span>
                                                         <span><FormattedMessage id="curriculumVitaeLink" /></span>
@@ -96,22 +98,22 @@ class MainCard extends Component {
                                         </div>
                                     </div>
 
-                                    <div class="content">
+                                    <div className="content">
 
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="column is-9-tablet is-7-widescreen" id="experiences">
-                            <span class="title">{experienceCardMessage.title.experience}</span>
+                        <div className="column is-9-tablet is-7-widescreen" id="experiences">
+                            <span className="title">{experienceCardMessage.title.experience}</span>
                             {experienceCardMessage.experiences.map(function (experience, index) {
-                                return <ExperienceCard
+                                return <ExperienceCard key={index}
                                     data={experience} />;
                             })}
-                            <span class="title">{experienceCardMessage.title.education}</span>
+                            <span className="title">{experienceCardMessage.title.education}</span>
                             {experienceCardMessage.education.map(function (education, index) {
-                                return <ExperienceCard
+                                return <ExperienceCard key={index}
                                     data={education} />;
                             })}
                         </div>

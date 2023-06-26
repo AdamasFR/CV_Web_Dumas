@@ -1,5 +1,7 @@
+import './ExperienceCard.scss';
+
 import React, { Component } from 'react';
-import './ExperienceCard.scss'
+
 
 // import { connect } from "react-redux";
 // import { bindActionCreators } from "redux";
@@ -13,29 +15,29 @@ export default class ExperienceCard extends Component {
     render() {
         var data = this.props.data;
         var imgSrc = data.logo;
-        return <div class="card-content">
-            <div class="media">
-                <div class="media-left">
+        return <div className="card-content">
+            <div className="media">
+                <div className="media-left">
                     <a href={data.url} target="_blank" rel="noreferrer">
-                        <figure class="image is-48x48">
+                        <figure className="image is-48x48">
                             <img src={imgSrc} alt="Logo Entreprise" />
                         </figure>
                     </a>
                 </div>
-                <div class="media-content">
-                    <p class="title is-4">{data.occupation}</p>
-                    <p class="subtitle is-6">{data.entreprise} - {data.location} - {data.duration}</p>
-                    <div class="tags">
+                <div className="media-content">
+                    <p className="title is-4">{data.occupation}</p>
+                    <p className="subtitle is-6">{data.entreprise} - {data.location} - {data.duration}</p>
+                    <div className="tags">
                         {data.tags.map(function (name, index) {
-                            return <span key={index} class="tag">{name}</span>;
+                            return <span key={index} className="tag">{name}</span>;
                         })}
                     </div>
                 </div>
             </div>
-            <div class="content">
+            <div className="content">
                 {data.description}
             </div>
-            {data.commentaire ? <div class="comment">
+            {data.commentaire ? <div className="comment">
                 {data.commentaire}
             </div> : ''}
 
