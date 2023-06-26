@@ -9,11 +9,21 @@
     },
     "experiences": [
       {
+        "occupation": "Ingénieur Logiciel",
+        "logo": "../../images/logos/soprasteria.co.uk.webp",
+        "url": "https://www.soprasteria.com/",
+        "duration": "depuis Juin 2023",
+        "entreprise": "Sopra Steria",
+        "location": "Clermont-Ferrand",
+        "description": "",
+        "tags": ["Java EE"]
+      },
+      {
         "occupation": "Software Developer",
         "logo": "../../images/logos/harvest.fr.webp",
         "url": "https://www.harvest.fr",
         "duration": "Juillet 2016 - Juin 2023",
-        "entreprise": "Harvest",
+        "entreprise": "Harvest Groupe",
         "location": "Clermont-Ferrand",
         "description": "Développement de simulateurs dédiés au conseil et à la vente de produits bancaires.",
         "tags": [
