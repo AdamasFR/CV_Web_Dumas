@@ -15,7 +15,7 @@
         "entreprise": "Sopra Steria",
         "location": "Clermont-Ferrand",
         "description": "",
-        "tags": ["Java"]
+        "tags": ["Java", "Gitlab CI/CD", "HP Application Lifecycle Management"]
       },
       {
         "occupation": "Event Coordinator",
