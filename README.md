@@ -8,5 +8,5 @@ Je vous souhaite une excellente journée,
 
 **Anthony Dumas**
 
-Senior Software Engineer @ soprasteria.com
+Senior Engineer @ soprasteria.com
 ```
