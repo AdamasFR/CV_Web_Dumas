@@ -26,7 +26,7 @@ export default class ExperienceCard extends Component {
                 </div>
                 <div className="media-content">
                     <p className="title is-4">{data.occupation}</p>
-                    <p className="subtitle is-6">{data.entreprise} - {data.location} - {data.duration}</p>
+                    <p className="subtitle is-6"><strong>{data.entreprise}</strong> - {data.location} - {data.duration}</p>
                     <div className="tags">
                         {data.tags.map(function (name, index) {
                             return <span key={index} className="tag">{name}</span>;
