@@ -1,0 +1,15 @@
+version: '2'
+services:
+  server:
+    image: adm/portfolio:latest
+    networks:
+      - traefik_default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.portfolio.rule=Host(`anthony-dumas.fr`)"
+      - "traefik.http.routers.portfolio.entrypoints=websecure"
+      - "traefik.http.routers.portfolio.tls.certresolver=myresolver"
+      - "traefik.http.services.portfolio.loadbalancer.server.port=3000"
+networks:
+  traefik_default:
+    external: true
