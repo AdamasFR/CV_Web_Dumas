@@ -10,6 +10,11 @@ services:
       - "traefik.http.routers.portfolio.entrypoints=websecure"
       - "traefik.http.routers.portfolio.tls.certresolver=myresolver"
       - "traefik.http.services.portfolio.loadbalancer.server.port=3000"
+      - "traefik.http.middlewares.redirect-to-non-www.redirectregex.regex=^https?://www.anthony-dumas.fr/(.*)"
+      - "traefik.http.middlewares.redirect-to-non-www.redirectregex.replacement=https://anthony-dumas.fr/$${1}"
+      - "traefik.http.middlewares.redirect-to-non-www.redirectregex.permanent=true"
+      - "traefik.http.routers.portfolio.rule=Host(`anthony-dumas.fr`) || Host(`www.anthony-dumas.fr`)"
+      - "traefik.http.routers.portfolio.middlewares=redirect-to-non-www"
 networks:
   traefik_default:
     external: true
