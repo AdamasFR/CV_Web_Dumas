@@ -81,7 +81,7 @@ class MainCard extends Component {
                                                     <ButtonIcon
                                                         icon="logo-mastodon"
                                                         aria-label="Mastodon"
-                                                        lien="https://imaginair.es/@adamas" />
+                                                        lien="https://social.adm.ink/@adamas" />
                                                 </p>
                                             </div>
                                             <p id="boutonCV" className="field">
