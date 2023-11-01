@@ -86,7 +86,7 @@ class MainCard extends Component {
                                             </div>
                                             <p id="boutonCV" className="field">
                                                 <a rel="noreferrer noopener" target="_blank"
-                                                    href="https://files.adm.ink/anthony-dumas-cv.pdf" >
+                                                    href="https://f001.backblazeb2.com/file/anthony-dumas-cdn/anthony-dumas.fr/anthony-dumas-cv.pdf" >
                                                     <button className="button is-fullwidth" aria-label="Bouton Curriculum Vitæ">
                                                         <span className="icon">
                                                             <ion-icon name="document-attach-outline"></ion-icon>
