@@ -1,21 +1,21 @@
-name: CV_Web_ADM
-
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - 'main'
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    name: Test CV Web Dumas
+  deploy_to_main:
+    name: Deploy app to the Multirisque main setup
+    runs-on: self-hosted
     steps:
-    - uses: actions/checkout@v1
-    - name: Install requirements
-      run: npm ci
-    - name: Run tests and collect coverage
-      run: npm run test
-    - name: Upload coverage reports to Codecov
-      run: |
-        # Replace `linux` below with the appropriate OS
-        # Options are `alpine`, `linux`, `macos`, `windows`
-        curl -Os https://uploader.codecov.io/latest/linux/codecov
-        chmod +x codecov
-        ./codecov -t ${CODECOV_TOKEN}
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - name: SSH Command
+        uses: D3rHase/ssh-command-action@v0.2.2 
+        with:
+          host: ${{secrets.HOST}} # Remote server address / ip - required
+          port: ${{secrets.PORT}} # Remote server port -  Default: 22 - optional
+          user: ${{secrets.USER}} # Remote server user - required
+          private_key: ${{secrets.PRIVATE_KEY}} # Private ssh key registered on the remote server - required
+          host_fingerprint: ${{secrets.HOST_FINGERPRINT}} # Public ssh key fingerprint, viewable via ssh-keyscan -H $HOST -p $PORT - optional
+          command: cd ./docker-data/perso/ && ./updateCV.sh # Command to be executed - Default: echo 'hello world'
