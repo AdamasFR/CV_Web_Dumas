@@ -15,7 +15,13 @@
         "entreprise": "Sopra Steria",
         "location": "Clermont-Ferrand",
         "description": "",
-        "tags": ["Java EE", "Gitlab CI/CD", "HP Application Lifecycle Management"]
+        "tags": [
+          "Java",
+          "Spring",
+          "Gitlab CI/CD",
+          "DevOps",
+          "HP Application Lifecycle Management"
+        ]
       },
       {
         "occupation": "Coordinateur événementiel",
@@ -35,14 +41,7 @@
         "entreprise": "Harvest Groupe",
         "location": "Clermont-Ferrand",
         "description": "Développement de simulateurs dédiés au conseil et à la vente de produits bancaires.",
-        "tags": [
-          "Java EE",
-          "Angular",
-          "OpenAPI",
-          "jQuery",
-          "Spring",
-          "Scrum"
-        ]
+        "tags": ["Java EE", "Angular", "OpenAPI", "jQuery", "Spring", "Scrum"]
       },
       {
         "occupation": "Stagiaire Développeur Internet des Objets",
