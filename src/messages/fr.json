@@ -15,13 +15,7 @@
         "entreprise": "Sopra Steria",
         "location": "Clermont-Ferrand",
         "description": "",
-        "tags": [
-          "Java",
-          "Spring",
-          "Gitlab CI/CD",
-          "DevOps",
-          "HP Application Lifecycle Management"
-        ]
+        "tags": ["Java", "Spring", "DevOps", "Linux"]
       },
       {
         "occupation": "Coordinateur événementiel",
@@ -31,7 +25,7 @@
         "entreprise": "La Clameur (Association Loi 1901)",
         "location": "en distanciel",
         "description": "Coordination des événements de l'association, maintenance du site Internet et des fluxs RSS.",
-        "tags": ["Notion", "CPanel", "Wordpress", "RSS", "Podcast"]
+        "tags": ["Notion", "CPanel", "Wordpress", "RSS", "Podcast Distribution"]
       },
       {
         "occupation": "Software Developer",
