@@ -70,16 +70,6 @@
         "location": "Le Puy-en-Velay",
         "description": "Programmation 3D temps réel, Web, infographie 3D, retouche d'image.",
         "tags": ["Unity", "3DSMax", "Photoshop", "C++", "Python", "Web Design"]
-      },
-      {
-        "occupation": "L2 Informatique",
-        "logo": "../../images/logos/www.uca.fr.webp",
-        "url": "https://www.uca.fr",
-        "duration": "2016",
-        "entreprise": "Université Clermont-Auvergne",
-        "location": "Clermont-Ferrand",
-        "description": "",
-        "tags": ["Python", "Linux"]
       }
     ]
   },
