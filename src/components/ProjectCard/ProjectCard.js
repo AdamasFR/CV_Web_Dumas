@@ -11,7 +11,9 @@ export default class ProjectCard extends Component {
             <div className="tile">
                 <div className="tile is-parent">
                     <article className="tile is-child notification is-info">
-                        <p className="title">{data.title}</p>
+                        <p className="title">
+                            <a href={data.url} rel="noopener noreferrer" target="_blank">{data.title}</a>
+                        </p>
                         <a href={data.url} rel="noopener noreferrer" target="_blank">
                             <figure className="image is-4by3">
                                 <img src={data.image}

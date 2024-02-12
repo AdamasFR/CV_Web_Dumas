@@ -13,7 +13,7 @@ import ExperienceCard from '../ExperienceCard/index';
 class MainCard extends Component {
 
     componentDidMount() {
-        PowerGlitch.glitch('img',
+        PowerGlitch.glitch('#photoProfil img',
             {
                 playMode: 'hover',
                 hideOverflow: true,

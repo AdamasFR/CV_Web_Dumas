@@ -8,6 +8,7 @@ $myrtle-green: #1d353a;
 $cadet-blue: #25444b;
 $neon-carrot: #142225;
 $white: #ffffff;
+$admink-brand: #f38d68;
 
 /**
     Variables Bulma
@@ -110,4 +111,8 @@ footer small {
 #mailWhenNoJavascript {
   text-align: left;
   font-size: 20px;
+}
+
+p.title a {
+  color: $admink-brand !important;
 }
