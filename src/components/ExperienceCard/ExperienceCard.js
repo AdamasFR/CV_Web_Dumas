@@ -34,8 +34,8 @@ export default class ExperienceCard extends Component {
                     </div>
                 </div>
             </div>
-            <div className="content">
-                {data.description}
+            <div className='content'>
+                <div dangerouslySetInnerHTML={{ __html: data.description }} /> 
             </div>
             {data.commentaire ? <div className="comment">
                 {data.commentaire}
