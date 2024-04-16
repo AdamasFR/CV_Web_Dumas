@@ -12,7 +12,7 @@ class ProjectsCard extends Component {
     return <section id="projets" className="hero is-success">
       <div className="hero-body">
         <div className="container">
-          <div className="tile is-ancestor">
+          <div className="grid">
             {projectCardsMessage.projects.map(function (projects, index) {
               return <ProjectCard key={index}
                 data={projects}

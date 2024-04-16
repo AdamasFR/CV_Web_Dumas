@@ -7,20 +7,18 @@ $deep-koamaru: #152528;
 $myrtle-green: #1d353a;
 $cadet-blue: #25444b;
 $neon-carrot: #142225;
-$white: #ffffff;
 $admink-brand: #f38d68;
 
-/**
-    Variables Bulma
-**/
-$primary: $cadet-blue;
-$primary-invert: #fff;
-$info: $myrtle-green;
-$info-invert: #fff;
-$footer-color: $deep-koamaru;
-$success: $deep-koamaru;
-$link: $neon-carrot;
-$link-hover: "";
+@use "bulma/sass/base" with (
+  $primary: $cadet-blue,
+  $primary-invert: #fff,
+  $info: $myrtle-green,
+  $info-invert: #fff,
+  $footer-color: $deep-koamaru,
+  $success: $deep-koamaru,
+  $link: $neon-carrot,
+  $link-hover: ""
+);
 
 html {
   background-color: $primary;
@@ -29,8 +27,6 @@ html {
 body {
   overflow-x: hidden;
 }
-
-@import "../../node_modules/bulma/bulma";
 
 #idCard {
   .hero-body {
