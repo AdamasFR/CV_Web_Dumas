@@ -7,40 +7,28 @@ $deep-koamaru: #152528;
 $myrtle-green: #1d353a;
 $cadet-blue: #25444b;
 $neon-carrot: #142225;
-$white: #ffffff;
 $admink-brand: #f38d68;
 
-/**
-    Variables Bulma
-**/
-$primary: $cadet-blue;
-$primary-invert: #fff;
-$info: $myrtle-green;
-$info-invert: #fff;
-$footer-color: $deep-koamaru;
-$success: $deep-koamaru;
-$link: $neon-carrot;
-$link-hover: "";
+@use "bulma/sass" with (
+  $primary: $cadet-blue,
+  $info: $myrtle-green,
+  $footer-color: $deep-koamaru,
+  $success: $deep-koamaru,
+  $link: $neon-carrot
+);
 
 html {
-  background-color: $primary;
+  background-color: $myrtle-green;
 }
 
 body {
   overflow-x: hidden;
 }
 
-@import "../../node_modules/bulma/bulma";
-
 #idCard {
   .hero-body {
     padding-bottom: 2rem;
     padding-top: 2rem;
-  }
-
-  // permet de re-aligner les tags avec les subtitles
-  .tags {
-    margin-top: -1.25rem;
   }
 }
 
@@ -50,7 +38,7 @@ body {
 }
 
 footer {
-  background-color: $footer-color !important;
+  background-color: $deep-koamaru !important;
   color: #fff;
 }
 
@@ -89,12 +77,12 @@ section#contact .button {
 
 //
 footer small {
-  color: $white;
+  color: #fff;
 }
 
 // Photo de Profil
 #photoProfil {
-  background-color: $primary;
+  background-color: $myrtle-green;
 }
 
 .tile.is-vertical {

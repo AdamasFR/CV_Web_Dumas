@@ -1,4 +1,15 @@
-.comment{
-    font-style: italic;
-    margin-top: -25px;
+.comment {
+  font-style: italic;
+  margin-top: -25px;
+}
+
+// permet de re-aligner les tags avec les subtitles
+.tags,
+.description,
+.comment {
+  margin-top: -1.25rem;
+}
+
+.card-content {
+  margin-top: 1rem;
 }

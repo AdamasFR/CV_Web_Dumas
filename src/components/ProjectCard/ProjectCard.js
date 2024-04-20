@@ -9,8 +9,8 @@ export default class ProjectCard extends Component {
         const data = this.props.data;
         return <div className="tile is-vertical is-4">
             <div className="tile">
-                <div className="tile is-parent">
-                    <article className="tile is-child notification is-info">
+                <div className="cell">
+                    <article className="box notification is-info">
                         <p className="title">
                             <a href={data.url} rel="noopener noreferrer" target="_blank">{data.title}</a>
                         </p>
