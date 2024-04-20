@@ -9,19 +9,16 @@ $cadet-blue: #25444b;
 $neon-carrot: #142225;
 $admink-brand: #f38d68;
 
-@use "bulma/sass/base" with (
-  $primary: $cadet-blue,
-  $primary-invert: #fff,
+@use "bulma/sass" with (
+  $primary: $myrtle-green,
   $info: $myrtle-green,
-  $info-invert: #fff,
   $footer-color: $deep-koamaru,
   $success: $deep-koamaru,
-  $link: $neon-carrot,
-  $link-hover: ""
+  $link: $neon-carrot
 );
 
 html {
-  background-color: $primary;
+  background-color: $myrtle-green;
 }
 
 body {
@@ -46,7 +43,7 @@ body {
 }
 
 footer {
-  background-color: $footer-color !important;
+  background-color: $deep-koamaru !important;
   color: #fff;
 }
 
@@ -85,12 +82,12 @@ section#contact .button {
 
 //
 footer small {
-  color: $white;
+  color: #fff;
 }
 
 // Photo de Profil
 #photoProfil {
-  background-color: $primary;
+  background-color: $myrtle-green;
 }
 
 .tile.is-vertical {
