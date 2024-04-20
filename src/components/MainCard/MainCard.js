@@ -52,7 +52,7 @@ class MainCard extends Component {
             <div className="hero-body">
                 <div className="container">
                     <div className="columns">
-                        <div className="column is-2 is-hidden-touch is-hidden-desktop-only dontPrint"></div>
+                        <div className="column is-1 is-hidden-touch is-hidden-desktop-only dontPrint"></div>
                         <div id="photosAndButtons" className="column is-3-widescreen is-4-tablet is-success">
                             <div className="card">
                                 <div className="card-image">

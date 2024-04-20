@@ -10,7 +10,7 @@ $neon-carrot: #142225;
 $admink-brand: #f38d68;
 
 @use "bulma/sass" with (
-  $primary: $myrtle-green,
+  $primary: $cadet-blue,
   $info: $myrtle-green,
   $footer-color: $deep-koamaru,
   $success: $deep-koamaru,
@@ -29,11 +29,6 @@ body {
   .hero-body {
     padding-bottom: 2rem;
     padding-top: 2rem;
-  }
-
-  // permet de re-aligner les tags avec les subtitles
-  .tags {
-    margin-top: -1.25rem;
   }
 }
 
