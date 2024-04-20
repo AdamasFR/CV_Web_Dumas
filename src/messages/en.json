@@ -14,8 +14,8 @@
         "duration": "since June 2023",
         "entreprise": "Sopra Steria",
         "location": "Clermont-Ferrand",
-        "description": "",
-        "tags": ["Java", "Spring", "DevOps", "Linux", "Scrum"]
+        "description": "Fullstack Developer @ Michelin [since 02/24]<br/>Developer for Imprimerie Nationale [06/23 - 02/24]",
+        "tags": ["Java", "Angular", "Spring", "DevOps", "Linux", "Azure", "Scrum"]
       },
       {
         "occupation": "Event Coordinator",
@@ -36,7 +36,7 @@
         "location": "Clermont-Ferrand",
         "description": "Development of responsive websites and APIs for wealth management and finance professionals.",
         "tags": [
-          "Java EE",
+          "Java",
           "Angular",
           "OpenAPI",
           "jQuery",

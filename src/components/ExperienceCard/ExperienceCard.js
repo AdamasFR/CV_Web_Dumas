@@ -32,14 +32,14 @@ export default class ExperienceCard extends Component {
                             return <span key={index} className="tag">{name}</span>;
                         })}
                     </div>
+                    <div className='description content'>
+                        <div dangerouslySetInnerHTML={{ __html: data.description }} />
+                    </div>
+                    {data.commentaire ? <div className="comment">
+                        {data.commentaire}
+                    </div> : ''}
                 </div>
             </div>
-            <div className="content">
-                {data.description}
-            </div>
-            {data.commentaire ? <div className="comment">
-                {data.commentaire}
-            </div> : ''}
 
         </div>
     }

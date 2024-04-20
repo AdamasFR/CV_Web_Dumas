@@ -14,8 +14,8 @@
         "duration": "depuis Juin 2023",
         "entreprise": "Sopra Steria",
         "location": "Clermont-Ferrand",
-        "description": "",
-        "tags": ["Java", "Spring", "DevOps", "Linux", "Scrum"]
+        "description": "Fullstack Developer @ Michelin [depuis 02/24]<br/>Maintenance Applicative pour Imprimerie Nationale [06/23 - 02/24]",
+        "tags": ["Java", "Angular", "Spring", "DevOps", "Linux", "Azure", "Scrum"]
       },
       {
         "occupation": "Coordinateur événementiel",
@@ -41,7 +41,7 @@
         "entreprise": "Harvest Groupe",
         "location": "Clermont-Ferrand",
         "description": "Développement de simulateurs dédiés au conseil et à la vente de produits bancaires.",
-        "tags": ["Java EE", "Angular", "OpenAPI", "jQuery", "Spring", "Scrum"]
+        "tags": ["Java", "Angular", "OpenAPI", "jQuery", "Spring", "Scrum"]
       },
       {
         "occupation": "Stagiaire Développeur Internet des Objets",
