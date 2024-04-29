@@ -29,14 +29,16 @@
             "logo": "../../images/logos/michelin.webp",
             "url": "https://www.michelin.fr",
             "occupation": "Fullstack Developer",
-            "duration": "depuis 02/24"
+            "duration": "depuis 02/24",
+            "situation": "@"
           },
           {
             "entreprise": "IN Groupe",
             "logo": "../../images/logos/ingroupe.webp",
             "url": "https://ingroupe.com/fr/",
             "occupation": "Maintenance Applicative",
-            "duration": "06/23 - 02/24"
+            "duration": "06/23 - 02/24",
+            "situation": "pour"
           }
         ]
       },

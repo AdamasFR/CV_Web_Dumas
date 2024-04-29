@@ -15,7 +15,7 @@ export default class ExperienceSlimSpan extends Component {
                </a>
             </div>
             <div className="media-content">
-               <p className="subtitle is-6">{data.occupation} @ <strong>{data.entreprise}</strong> - {data.duration}</p>
+               <p className="subtitle is-6">{data.occupation} {data.situation} <strong>{data.entreprise}</strong> - {data.duration}</p>
             </div>
          </div>
       </div>
