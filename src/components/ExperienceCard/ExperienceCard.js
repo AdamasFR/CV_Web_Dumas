@@ -2,10 +2,8 @@ import './ExperienceCard.scss';
 
 import React, { Component } from 'react';
 
+import ExperienceSlimSpanWrapper from '../ExperienceSlimSpan/ExperienceSlimSpan';
 
-// import { connect } from "react-redux";
-// import { bindActionCreators } from "redux";
-// import * as MenuComponentActions from "../../store/MenuComponent/actions";
 
 export default class ExperienceCard extends Component {
     // constructor(props) {
@@ -35,6 +33,13 @@ export default class ExperienceCard extends Component {
                     <div className='description content'>
                         <div dangerouslySetInnerHTML={{ __html: data.description }} />
                     </div>
+                    {data.missions ?
+                        data.missions.map(function (mission, index) {
+                            return <ExperienceSlimSpanWrapper key={index}
+                                data={mission} />;
+                        }) : ''
+
+                    }
                     {data.commentaire ? <div className="comment">
                         {data.commentaire}
                     </div> : ''}
@@ -44,7 +49,3 @@ export default class ExperienceCard extends Component {
         </div>
     }
 }
-// export default connect(
-//     ({ MenuComponent }) => ({ ...MenuComponent }),
-//     dispatch => bindActionCreators({ ...MenuComponentActions }, dispatch)
-//   )( MenuComponent );

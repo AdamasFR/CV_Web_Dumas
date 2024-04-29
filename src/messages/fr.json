@@ -14,8 +14,31 @@
         "duration": "depuis Juin 2023",
         "entreprise": "Sopra Steria",
         "location": "Clermont-Ferrand",
-        "description": "Fullstack Developer @ Michelin [depuis 02/24]<br/>Maintenance Applicative pour Imprimerie Nationale [06/23 - 02/24]",
-        "tags": ["Java", "Angular", "Spring", "DevOps", "Linux", "Azure", "Scrum"]
+        "tags": [
+          "Java",
+          "Angular",
+          "Spring",
+          "DevOps",
+          "Linux",
+          "Azure",
+          "Scrum"
+        ],
+        "missions": [
+          {
+            "entreprise": "Michelin",
+            "logo": "../../images/logos/michelin.webp",
+            "url": "https://www.michelin.fr",
+            "occupation": "Fullstack Developer",
+            "duration": "depuis 02/24"
+          },
+          {
+            "entreprise": "IN Groupe",
+            "logo": "../../images/logos/ingroupe.webp",
+            "url": "https://ingroupe.com/fr/",
+            "occupation": "Maintenance Applicative",
+            "duration": "06/23 - 02/24"
+          }
+        ]
       },
       {
         "occupation": "Coordinateur événementiel",

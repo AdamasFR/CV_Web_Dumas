@@ -13,3 +13,12 @@
 .card-content {
   margin-top: 1rem;
 }
+
+.mission.card-content {
+  margin-top: 0;
+}
+
+.mission .media {
+  border-top-style: none;
+  align-items: self-end;
+}
