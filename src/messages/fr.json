@@ -116,7 +116,7 @@
       },
       {
         "title": "Blog",
-        "url": "https://blog.adm.ink/",
+        "url": "https://blog.adm.ink/?referer=portfolio",
         "image": "../../images/portfolio/blog.webp",
         "imgAlt": "Capture d'écran de blog.adm.ink. On peut y voir le logo du blog, ainsi que quelques liens de navigations, ainsi que la photo accompagnant un article, une assiete de houmous.",
         "imgTitle": "Capture d'écran de blog.adm.ink. On peut y voir le logo du blog, ainsi que quelques liens de navigations, ainsi que la photo accompagnant un article, une assiete de houmous"
