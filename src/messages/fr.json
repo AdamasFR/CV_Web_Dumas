@@ -140,10 +140,10 @@
         "aria-label": "LinkedIn"
       },
       {
-        "title": "Telegram",
-        "url": "https://t.me/adamas_FR",
+        "title": "Signal",
+        "url": "https://signal.me/#eu/cpQOzblF-DM6sltmP6s58NYmnxMUEQHE-IxRnLPHXXaE7oQJc_JHGrIlVulPwGgu",
         "icon": "call-outline",
-        "aria-label": "Telegram"
+        "aria-label": "Signal"
       },
       {
         "title": "Mastodon",
