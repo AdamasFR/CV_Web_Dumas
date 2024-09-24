@@ -105,10 +105,10 @@
         "aria-label": "Email"
       },
       {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/anthonyyvondumas/",
-        "icon": "logo-linkedin",
-        "aria-label": "LinkedIn"
+        "title": "Signal",
+        "url": "https://signal.me/#eu/cpQOzblF-DM6sltmP6s58NYmnxMUEQHE-IxRnLPHXXaE7oQJc_JHGrIlVulPwGgu",
+        "icon": "call-outline",
+        "aria-label": "Signal"
       },
       {
         "title": "Telegram",
